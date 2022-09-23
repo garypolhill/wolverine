@@ -1,0 +1,133 @@
+Region ID,Region Name,Dwelling Type ID,Dwelling Type Name,Dwelling Size ID,Dwelling Size Name,2012,2013,2014,2015,2016,2017,2018,2019,2020
+0184,Solna,FBBO,multi-dwelling buildings -- tenant-owned,TOTs,all dwelling types,20146,20692,21452,22026,22890,23710,24144,24748,25332
+,,,,1R+,dwellings without kitchen,..,..,5,6,..,5,5,6,5
+,,,,1RKV+KS,1 room and kitchenette,584,586,605,613,613,650,642,659,667
+,,,,1RK,1 room and kitchen,2336,2397,2499,2543,2626,2807,2846,2934,3035
+,,,,2RKV+KS,2 or more rooms with kitchenette,52,54,54,53,56,59,56,60,67
+,,,,2RK,2 rooms and kitchen,5774,5956,6228,6432,6775,7001,7203,7476,7732
+,,,,3RK,3 rooms and kitchen,6764,6930,7092,7245,7482,7696,7832,7970,8124
+,,,,4RK,4 rooms and kitchen,3359,3443,3600,3725,3864,3970,4012,4077,4119
+,,,,5RK,5 rooms and kitchen,1037,1083,1116,1154,1214,1253,1271,1285,1305
+,,,,6+RK,6 or more rooms and kitchen,237,240,252,254,255,268,276,280,278
+,,,,UPPGSAKNs,data missing,..,..,..,..,..,..,..,..,..
+,,FBHY0,multi-dwelling buildings -- rented,TOTs,all dwelling types,10120,9983,10213,10638,10511,10378,10418,10504,10821
+,,,,1R+,dwellings without kitchen,10,9,11,10,12,12,11,12,12
+,,,,1RKV+KS,1 room and kitchenette,539,537,543,572,566,623,640,642,728
+,,,,1RK,1 room and kitchen,1307,1313,1314,1337,1352,1381,1385,1385,1380
+,,,,2RKV+KS,2 or more rooms with kitchenette,77,73,74,95,94,79,79,81,83
+,,,,2RK,2 rooms and kitchen,2824,2751,2897,3058,2971,2947,2947,2982,3119
+,,,,3RK,3 rooms and kitchen,3466,3424,3492,3563,3549,3416,3435,3489,3546
+,,,,4RK,4 rooms and kitchen,1381,1373,1388,1482,1461,1429,1428,1427,1458
+,,,,5RK,5 rooms and kitchen,440,442,442,483,465,458,463,452,461
+,,,,6+RK,6 or more rooms and kitchen,40,38,35,34,37,29,27,30,29
+,,,,UPPGSAKNs,data missing,36,23,17,..,..,..,..,..,5
+,,FBBOHY,Multi-dwelling buildnings -- tenant-owned and rented dwellings,TOTs,all dwelling types,30266,30675,31665,32664,33401,34088,34562,35252,36153
+,,,,1R+,dwellings without kitchen,10,9,16,16,12,17,16,18,17
+,,,,1RKV+KS,1 room and kitchenette,1123,1123,1148,1185,1179,1273,1282,1301,1395
+,,,,1RK,1 room and kitchen,3643,3710,3813,3880,3978,4188,4231,4319,4415
+,,,,2RKV+KS,2 or more rooms with kitchenette,129,127,128,148,150,138,135,141,150
+,,,,2RK,2 rooms and kitchen,8598,8707,9125,9490,9746,9948,10150,10458,10851
+,,,,3RK,3 rooms and kitchen,10230,10354,10584,10808,11031,11112,11267,11459,11670
+,,,,4RK,4 rooms and kitchen,4740,4816,4988,5207,5325,5399,5440,5504,5577
+,,,,5RK,5 rooms and kitchen,1477,1525,1558,1637,1679,1711,1734,1737,1766
+,,,,6+RK,6 or more rooms and kitchen,277,278,287,288,292,297,303,310,307
+,,,,UPPGSAKNs,data missing,36,23,17,..,..,..,..,..,5
+,,SPBO,special housing,TOTs,all dwelling types,2104,2180,2226,2228,2338,2507,2664,2650,2594
+,,,,1R+,dwellings without kitchen,802,869,893,893,910,929,969,981,966
+,,,,1RKV+KS,1 room and kitchenette,870,866,886,887,901,1005,1115,1124,1086
+,,,,1RK,1 room and kitchen,12,11,15,13,71,105,98,70,59
+,,,,2RKV+KS,2 or more rooms with kitchenette,309,314,305,310,305,317,339,334,338
+,,,,2RK,2 rooms and kitchen,65,72,77,74,103,100,95,91,94
+,,,,3RK,3 rooms and kitchen,41,43,45,46,43,46,43,45,46
+,,,,4RK,4 rooms and kitchen,5,5,5,5,5,5,5,5,5
+,,,,5RK,5 rooms and kitchen,..,..,..,..,..,..,..,..,..
+,,,,6+RK,6 or more rooms and kitchen,..,..,..,..,..,..,..,..,..
+,,,,UPPGSAKNs,data missing,..,..,..,..,..,..,..,..,..
+,,OB,other housing,TOTs,all dwelling types,408,544,421,521,538,549,534,508,633
+,,,,1R+,dwellings without kitchen,..,..,..,..,..,..,..,..,..
+,,,,1RKV+KS,1 room and kitchenette,19,19,23,25,28,34,33,34,11
+,,,,1RK,1 room and kitchen,24,32,28,35,40,41,38,42,201
+,,,,2RKV+KS,2 or more rooms with kitchenette,5,6,..,..,..,..,..,..,..
+,,,,2RK,2 rooms and kitchen,164,253,172,232,242,250,239,226,229
+,,,,3RK,3 rooms and kitchen,134,150,129,156,155,152,148,141,128
+,,,,4RK,4 rooms and kitchen,47,66,58,61,60,60,63,55,48
+,,,,5RK,5 rooms and kitchen,5,8,5,6,7,7,7,5,11
+,,,,6+RK,6 or more rooms and kitchen,10,10,..,..,..,..,..,..,..
+,,,,UPPGSAKNs,data missing,..,..,..,..,..,..,..,..,..
+,,TOT,housing -- total,TOTs,all dwelling types,32778,33399,34312,35413,36277,37144,37760,38410,39380
+,,,,1R+,dwellings without kitchen,814,880,909,909,926,946,985,999,983
+,,,,1RKV+KS,1 room and kitchenette,2012,2008,2057,2097,2108,2312,2430,2459,2492
+,,,,1RK,1 room and kitchen,3679,3753,3856,3928,4089,4334,4367,4431,4675
+,,,,2RKV+KS,2 or more rooms with kitchenette,443,447,436,461,458,457,477,478,491
+,,,,2RK,2 rooms and kitchen,8827,9032,9374,9796,10091,10298,10484,10775,11174
+,,,,3RK,3 rooms and kitchen,10405,10547,10758,11010,11229,11310,11458,11645,11844
+,,,,4RK,4 rooms and kitchen,4792,4887,5051,5273,5390,5464,5508,5564,5630
+,,,,5RK,5 rooms and kitchen,1482,1533,1563,1643,1686,1718,1741,1742,1777
+,,,,6+RK,6 or more rooms and kitchen,287,288,290,291,295,300,306,312,309
+,,,,UPPGSAKNs,data missing,37,24,18,5,5,5,..,5,5
+1280,Malmo,FBBO,multi-dwelling buildings -- tenant-owned,TOTs,all dwelling types,49985,50777,51885,53096,53792,54703,56273,57866,59218
+,,,,1R+,dwellings without kitchen,11,10,11,11,13,13,14,12,11
+,,,,1RKV+KS,1 room and kitchenette,717,758,768,760,775,782,805,827,829
+,,,,1RK,1 room and kitchen,4320,4367,4486,4587,4700,4800,4876,5002,5140
+,,,,2RKV+KS,2 or more rooms with kitchenette,215,228,230,230,234,228,230,214,220
+,,,,2RK,2 rooms and kitchen,19367,19646,20124,20567,20813,21175,21843,22424,22901
+,,,,3RK,3 rooms and kitchen,17711,18024,18371,18807,19016,19291,19803,20416,20875
+,,,,4RK,4 rooms and kitchen,5972,6055,6177,6360,6452,6599,6856,7120,7354
+,,,,5RK,5 rooms and kitchen,1333,1343,1374,1412,1421,1443,1467,1476,1510
+,,,,6+RK,6 or more rooms and kitchen,275,281,281,299,306,310,315,311,317
+,,,,UPPGSAKNs,data missing,64,65,63,63,62,62,64,64,61
+,,FBHY0,multi-dwelling buildings -- rented,TOTs,all dwelling types,54971,55513,56784,57343,58959,60194,61599,62734,64459
+,,,,1R+,dwellings without kitchen,9,9,13,13,12,15,15,16,17
+,,,,1RKV+KS,1 room and kitchenette,3464,3479,3541,3591,3726,3818,3834,3828,3878
+,,,,1RK,1 room and kitchen,4498,4598,4790,4892,5150,5301,5581,5801,6128
+,,,,2RKV+KS,2 or more rooms with kitchenette,1181,1183,1203,1207,1224,1235,1233,1240,1243
+,,,,2RK,2 rooms and kitchen,19717,19888,20394,20580,21158,21674,22330,22799,23351
+,,,,3RK,3 rooms and kitchen,18113,18297,18685,18898,19347,19671,20058,20339,20834
+,,,,4RK,4 rooms and kitchen,6328,6399,6487,6521,6669,6797,6867,7009,7249
+,,,,5RK,5 rooms and kitchen,1350,1355,1360,1336,1373,1379,1375,1399,1451
+,,,,6+RK,6 or more rooms and kitchen,302,297,303,296,292,294,296,293,296
+,,,,UPPGSAKNs,data missing,9,8,8,9,8,10,10,10,12
+,,FBBOHY,Multi-dwelling buildnings -- tenant-owned and rented dwellings,TOTs,all dwelling types,104956,106290,108669,110439,112751,114897,117872,120600,123677
+,,,,1R+,dwellings without kitchen,20,19,24,24,25,28,29,28,28
+,,,,1RKV+KS,1 room and kitchenette,4181,4237,4309,4351,4501,4600,4639,4655,4707
+,,,,1RK,1 room and kitchen,8818,8965,9276,9479,9850,10101,10457,10803,11268
+,,,,2RKV+KS,2 or more rooms with kitchenette,1396,1411,1433,1437,1458,1463,1463,1454,1463
+,,,,2RK,2 rooms and kitchen,39084,39534,40518,41147,41971,42849,44173,45223,46252
+,,,,3RK,3 rooms and kitchen,35824,36321,37056,37705,38363,38962,39861,40755,41709
+,,,,4RK,4 rooms and kitchen,12300,12454,12664,12881,13121,13396,13723,14129,14603
+,,,,5RK,5 rooms and kitchen,2683,2698,2734,2748,2794,2822,2842,2875,2961
+,,,,6+RK,6 or more rooms and kitchen,577,578,584,595,598,604,611,604,613
+,,,,UPPGSAKNs,data missing,73,73,71,72,70,72,74,74,73
+,,SPBO,special housing,TOTs,all dwelling types,3097,3193,3291,3422,3660,4077,4122,4156,3977
+,,,,1R+,dwellings without kitchen,202,186,167,155,294,372,287,210,242
+,,,,1RKV+KS,1 room and kitchenette,2130,2208,2251,2289,2338,2475,2506,2630,2513
+,,,,1RK,1 room and kitchen,434,454,516,574,610,706,775,790,712
+,,,,2RKV+KS,2 or more rooms with kitchenette,115,118,115,108,109,127,124,122,117
+,,,,2RK,2 rooms and kitchen,173,184,194,248,257,343,369,359,351
+,,,,3RK,3 rooms and kitchen,26,25,28,29,28,30,29,30,31
+,,,,4RK,4 rooms and kitchen,..,..,..,..,..,..,10,10,8
+,,,,5RK,5 rooms and kitchen,5,6,6,5,6,5,5,..,..
+,,,,6+RK,6 or more rooms and kitchen,8,9,10,10,14,15,14,..,..
+,,,,UPPGSAKNs,data missing,..,..,..,..,..,..,..,..,..
+,,OB,other housing,TOTs,all dwelling types,2287,2422,2594,2656,2720,2720,2740,2828,2922
+,,,,1R+,dwellings without kitchen,..,..,..,..,..,..,..,..,..
+,,,,1RKV+KS,1 room and kitchenette,134,144,151,178,177,157,154,167,175
+,,,,1RK,1 room and kitchen,161,190,217,214,228,240,252,264,265
+,,,,2RKV+KS,2 or more rooms with kitchenette,103,101,97,102,102,107,115,109,103
+,,,,2RK,2 rooms and kitchen,624,654,716,734,765,752,752,799,842
+,,,,3RK,3 rooms and kitchen,875,924,984,986,1004,1014,1017,1042,1078
+,,,,4RK,4 rooms and kitchen,264,273,292,303,314,317,313,308,315
+,,,,5RK,5 rooms and kitchen,72,76,76,79,73,76,80,81,87
+,,,,6+RK,6 or more rooms and kitchen,40,46,47,46,43,43,43,44,42
+,,,,UPPGSAKNs,data missing,13,13,13,13,13,13,13,13,14
+,,TOT,housing -- total,TOTs,all dwelling types,110340,111905,114554,116517,119131,121694,124734,127584,130576
+,,,,1R+,dwellings without kitchen,223,206,192,180,320,401,317,239,271
+,,,,1RKV+KS,1 room and kitchenette,6445,6589,6711,6818,7016,7232,7299,7452,7395
+,,,,1RK,1 room and kitchen,9413,9609,10009,10267,10688,11047,11484,11857,12245
+,,,,2RKV+KS,2 or more rooms with kitchenette,1614,1630,1645,1647,1669,1697,1702,1685,1683
+,,,,2RK,2 rooms and kitchen,39881,40372,41428,42129,42993,43944,45294,46381,47445
+,,,,3RK,3 rooms and kitchen,36725,37270,38068,38720,39395,40006,40907,41827,42818
+,,,,4RK,4 rooms and kitchen,12568,12730,12960,13188,13439,13717,14046,14447,14926
+,,,,5RK,5 rooms and kitchen,2760,2780,2816,2832,2873,2903,2927,2958,3050
+,,,,6+RK,6 or more rooms and kitchen,625,633,641,651,655,662,668,651,656
+,,,,UPPGSAKNs,data missing,86,86,84,85,83,85,90,87,87

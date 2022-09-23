@@ -1,0 +1,1530 @@
+﻿Decile ID,Decile,Good ID,Good,Expenditures,Expenditures -- margin of error,Share,Share of margin of error,Calculated population size,Average number of persons,Average number of consumer units
+D1,decil 1,r001,total expenditures,140160,16020,100.0,0.0,308030,1.3,1.13
+,,r002,food,17310,2120,14.0,1.8,308030,1.3,1.13
+,,r003,bread and cereals,3560,540,2.9,0.5,308030,1.3,1.13
+,,r004,rice and products of rice -- of which:,150,90,..,..,308030,1.3,1.13
+,,r005,rice,70,40,..,..,308030,1.3,1.13
+,,r006,products of rice,90,80,..,..,308030,1.3,1.13
+,,r007,pasta products,380,150,0.3,0.1,308030,1.3,1.13
+,,r008,flour -- grain,400,140,0.3,0.1,308030,1.3,1.13
+,,r009,bread -- of which:,1520,260,1.3,0.2,308030,1.3,1.13
+,,r010,hard bread,220,130,0.2,0.1,308030,1.3,1.13
+,,r011,soft white bread,390,150,0.4,0.2,308030,1.3,1.13
+,,r012,soft brown bread,260,110,0.2,0.1,308030,1.3,1.13
+,,r013,soft light bread,330,100,0.3,0.1,308030,1.3,1.13
+,,r014,bread unspecified,320,140,0.3,0.1,308030,1.3,1.13
+,,r015,pastry-cook products,1090,280,0.9,0.3,308030,1.3,1.13
+,,r016,meat,3000,600,2.4,0.5,308030,1.3,1.13
+,,r017,fresh -- chilled or frozen meat of bovine animals,230,120,0.2,0.1,308030,1.3,1.13
+,,r018,fresh -- chilled or frozen meat of pig,500,180,0.4,0.2,308030,1.3,1.13
+,,r019,fresh -- chilled or frozen meat of sheep and goat,..,..,..,..,308030,1.3,1.13
+,,r020,fresh -- chilled or frozen meat of poultry,310,170,0.2,0.1,308030,1.3,1.13
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,308030,1.3,1.13
+,,r022,dried -- salted or smoked meat of pig,610,180,0.5,0.2,308030,1.3,1.13
+,,r023,dried -- salted or smoked other meats,170,110,..,..,308030,1.3,1.13
+,,r024,meat -- sausages and meat of sandwiches,470,160,0.4,0.2,308030,1.3,1.13
+,,r025,pastry -- cured meats and provisions,180,80,..,..,308030,1.3,1.13
+,,r026,meatdishes,380,270,0.3,0.2,308030,1.3,1.13
+,,r027,meat - unspecified,..,..,..,..,308030,1.3,1.13
+,,r028,fish,1100,520,0.9,0.3,308030,1.3,1.13
+,,r029,fresh -- chilled or frozen fish -- of which:,430,410,0.3,0.2,308030,1.3,1.13
+,,r030,codfish,..,..,..,..,308030,1.3,1.13
+,,r031,salomonfish,70,60,..,..,308030,1.3,1.13
+,,r032,herring,..,..,..,..,308030,1.3,1.13
+,,r033,other fish,90,80,..,..,308030,1.3,1.13
+,,r034,seafood,..,..,..,..,308030,1.3,1.13
+,,r035,caviar -- roes -- other fishproducts,180,90,..,..,308030,1.3,1.13
+,,r036,fish and seafood dishes,440,170,0.4,0.2,308030,1.3,1.13
+,,r037,fish and seafood - unspecified,..,..,..,..,308030,1.3,1.13
+,,r038,milk -- cheese and eggs,3040,420,2.5,0.4,308030,1.3,1.13
+,,r039,milk (fat >=1 --5%),290,130,0.2,0.1,308030,1.3,1.13
+,,r040,low fat milk (fat <1 --5%),570,130,0.5,0.2,308030,1.3,1.13
+,,r041,preserved milk,..,..,..,..,308030,1.3,1.13
+,,r042,yoghurt and sour milk,450,160,0.4,0.1,308030,1.3,1.13
+,,r043,cream -- sour cream (fat>=29%),100,50,..,..,308030,1.3,1.13
+,,r044,cream -- sour cream (fat<29%),170,80,..,..,308030,1.3,1.13
+,,r045,cheese (fat >=17%),760,230,0.6,0.2,308030,1.3,1.13
+,,r046,cheese (fat <17%),340,130,0.3,0.1,308030,1.3,1.13
+,,r047,eggs,320,90,0.3,0.1,308030,1.3,1.13
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,308030,1.3,1.13
+,,r049,oils and fats,570,130,0.5,0.1,308030,1.3,1.13
+,,r050,butter,190,70,0.2,0.1,308030,1.3,1.13
+,,r051,margarine (fat>=40%),140,60,..,..,308030,1.3,1.13
+,,r052,margarine (fat<40%),100,50,..,..,308030,1.3,1.13
+,,r053,olive oil -- cooking oil -- mayonnaise,120,80,..,..,308030,1.3,1.13
+,,r054,fruit and berries,1310,310,1.1,0.4,308030,1.3,1.13
+,,r055,apples,220,160,0.2,0.1,308030,1.3,1.13
+,,r056,pears,90,50,..,..,308030,1.3,1.13
+,,r057,bananas,230,80,0.2,0.1,308030,1.3,1.13
+,,r058,citrus fruits,250,100,0.2,0.1,308030,1.3,1.13
+,,r059,other fresh fruit,120,60,..,..,308030,1.3,1.13
+,,r060,dried fruit,170,90,..,..,308030,1.3,1.13
+,,r061,berries,140,70,..,..,308030,1.3,1.13
+,,r062,preserved fruit and fruit based products,70,40,..,..,308030,1.3,1.13
+,,r063,others fruit and berries,..,..,..,..,308030,1.3,1.13
+,,r064,vegetables,1860,400,1.6,0.5,308030,1.3,1.13
+,,r065,leaf and stem vegetables,210,110,0.2,0.1,308030,1.3,1.13
+,,r066,cabbages -- fresh,60,30,..,..,308030,1.3,1.13
+,,r067,vegetables cultivated for their fruit -- fresh ,560,160,0.6,0.2,308030,1.3,1.13
+,,r068,onion -- leek -- fresh,110,50,..,..,308030,1.3,1.13
+,,r069,mashrooms -- fresh,..,..,..,..,308030,1.3,1.13
+,,r070,soups -- vegetabledishes,310,140,0.3,0.1,308030,1.3,1.13
+,,r071,root crops,130,60,..,..,308030,1.3,1.13
+,,r072,potatoes,240,100,0.2,0.1,308030,1.3,1.13
+,,r073,products of potatoes (french fries -- mashed potatoes),180,80,..,..,308030,1.3,1.13
+,,r074,vegetables - unspecified,..,..,..,..,308030,1.3,1.13
+,,r075,sugar and sweets,1630,360,1.2,0.3,308030,1.3,1.13
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,120,60,..,..,308030,1.3,1.13
+,,r077,jams -- marmelade,120,60,..,..,308030,1.3,1.13
+,,r078,ice cream,300,180,0.3,0.2,308030,1.3,1.13
+,,r079,other suger products,1090,250,0.8,0.2,308030,1.3,1.13
+,,r080,sauces -- condiments,330,130,0.3,0.1,308030,1.3,1.13
+,,r081,salt -- spices and culinary herbs,160,80,..,..,308030,1.3,1.13
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,190,80,0.2,0.1,308030,1.3,1.13
+,,r083,snacks,260,110,0.2,0.1,308030,1.3,1.13
+,,r084,unspec provisions,..,..,..,..,308030,1.3,1.13
+,,r085,non alcoholic beverages,1730,340,1.3,0.3,308030,1.3,1.13
+,,r086,fruit- and vegetable juices,210,80,..,..,308030,1.3,1.13
+,,r087,soft drinks,810,230,0.6,0.2,308030,1.3,1.13
+,,r088,mineral or spring waters,80,60,..,..,308030,1.3,1.13
+,,r089,coffee,500,160,0.4,0.1,308030,1.3,1.13
+,,r090,tee,120,60,..,..,308030,1.3,1.13
+,,r091,cacao,..,..,..,..,308030,1.3,1.13
+,,r092,dinner out,2960,1060,1.8,0.6,308030,1.3,1.13
+,,r093,alcoholic beverages (with low-strength beer),1930,880,1.7,0.9,308030,1.3,1.13
+,,r094,tobacco ,2400,1360,1.7,0.9,308030,1.3,1.13
+,,r095,consumer goods,3660,1190,2.5,0.8,308030,1.3,1.13
+,,r096,personal hygiene,2100,990,1.5,0.7,308030,1.3,1.13
+,,r097,other consumption purposes,1570,640,1.0,0.3,308030,1.3,1.13
+,,r098,domestic services,1980,1000,1.2,0.6,308030,1.3,1.13
+,,r099,childminding,310,280,..,..,308030,1.3,1.13
+,,r100,charge of skill -- other insurance,520,390,0.4,0.2,308030,1.3,1.13
+,,r101,other services,1150,910,0.7,0.5,308030,1.3,1.13
+,,r102,clothing and footwear,6840,3150,4.1,1.8,308030,1.3,1.13
+,,r103,clothing,5280,2570,3.4,1.6,308030,1.3,1.13
+,,r104, outdoor clothes,390,350,..,..,308030,1.3,1.13
+,,r105,other clothes,3710,2030,2.5,1.4,308030,1.3,1.13
+,,r106,underwear,880,690,0.6,0.5,308030,1.3,1.13
+,,r107,accessoarer -- hats -- caps -- gloves etc.,270,240,..,..,308030,1.3,1.13
+,,r108,footwear,1570,1230,0.7,0.6,308030,1.3,1.13
+,,r109,housing,50330,6480,38.7,4.6,308030,1.3,1.13
+,,r110,actual rentals for housing (incl. garage),29760,4950,25.5,4.8,308030,1.3,1.13
+,,r111,reparations,2460,1710,1.4,1.0,308030,1.3,1.13
+,,r112,householder´s comprehensive insurance,1250,370,1.0,0.4,308030,1.3,1.13
+,,r113,services associates with housing ,2900,1530,1.8,0.9,308030,1.3,1.13
+,,r114,electicity -- gas and other fuels ,6250,1940,4.5,1.3,308030,1.3,1.13
+,,r115,interests (gross),6450,3460,3.6,2.0,308030,1.3,1.13
+,,r116,furnishings -- household equipment and routine maintenance of the house,5720,2130,3.2,1.0,308030,1.3,1.13
+,,r117,furniture and furnishings -- carpets and other floor coverings,2730,1230,1.4,0.6,308030,1.3,1.13
+,,r118,textile,..,..,..,..,308030,1.3,1.13
+,,r119,household applience,2600,1000,1.6,0.6,308030,1.3,1.13
+,,r120,health and hospital services,2780,1720,1.8,1.1,308030,1.3,1.13
+,,r121,transport,15210,5280,9.3,2.6,308030,1.3,1.13
+,,r122,purchase of new motor-cars,4120,3770,1.5,1.3,308030,1.3,1.13
+,,r123,purchase of other vehicles,-390,1940,-0.2,1.2,308030,1.3,1.13
+,,r124,operation of motor-cars,7540,2450,5.4,1.8,308030,1.3,1.13
+,,r125,interests (motorcars - gross) -- licence duty,860,350,0.6,0.2,308030,1.3,1.13
+,,r126,operation of other vehicles,270,230,..,..,308030,1.3,1.13
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),..,..,..,..,308030,1.3,1.13
+,,r128,services of transport,2790,1270,1.9,0.9,308030,1.3,1.13
+,,r129,leisure time and culture,26780,5540,18.2,2.6,308030,1.3,1.13
+,,r130,weekend cottage,570,490,0.3,0.2,308030,1.3,1.13
+,,r131,radio and tv,1130,670,0.7,0.4,308030,1.3,1.13
+,,r132,sport and hobby,5320,3600,3.5,2.2,308030,1.3,1.13
+,,r133,watch -- camera -- photographic and cinematographic equipment,550,370,0.3,0.2,308030,1.3,1.13
+,,r134,holidays -- hotels,5880,2440,3.9,1.7,308030,1.3,1.13
+,,r135,other spare time,3720,1880,2.2,0.8,308030,1.3,1.13
+,,r136,entertainment,950,730,0.5,0.4,308030,1.3,1.13
+,,r137,books -- newspapers -- television taxes,4980,970,3.8,0.7,308030,1.3,1.13
+,,r138,mobiltelephone (callcharge and subscription fee),1650,540,1.2,0.4,308030,1.3,1.13
+,,r139,telephone (callcharge and subscription fee),2030,510,1.8,0.6,308030,1.3,1.13
+D2,decil 2,r001,total expenditures,156080,15920,100.0,0.0,405890,1.1,1.07
+,,r002,food,18230,2180,13.0,1.2,405890,1.1,1.07
+,,r003,bread and cereals,2970,400,2.2,0.3,405890,1.1,1.07
+,,r004,rice and products of rice -- of which:,200,80,0.2,0.1,405890,1.1,1.07
+,,r005,rice,80,60,..,..,405890,1.1,1.07
+,,r006,products of rice,120,60,..,..,405890,1.1,1.07
+,,r007,pasta products,150,70,..,..,405890,1.1,1.07
+,,r008,flour -- grain,310,100,0.2,0.1,405890,1.1,1.07
+,,r009,bread -- of which:,1210,200,0.9,0.2,405890,1.1,1.07
+,,r010,hard bread,200,80,..,..,405890,1.1,1.07
+,,r011,soft white bread,240,80,0.2,0.1,405890,1.1,1.07
+,,r012,soft brown bread,330,120,0.3,0.1,405890,1.1,1.07
+,,r013,soft light bread,250,90,0.2,0.1,405890,1.1,1.07
+,,r014,bread unspecified,190,80,..,..,405890,1.1,1.07
+,,r015,pastry-cook products,1100,290,0.9,0.3,405890,1.1,1.07
+,,r016,meat,3600,720,2.6,0.5,405890,1.1,1.07
+,,r017,fresh -- chilled or frozen meat of bovine animals,450,280,0.3,0.2,405890,1.1,1.07
+,,r018,fresh -- chilled or frozen meat of pig,530,180,0.4,0.2,405890,1.1,1.07
+,,r019,fresh -- chilled or frozen meat of sheep and goat,..,..,..,..,405890,1.1,1.07
+,,r020,fresh -- chilled or frozen meat of poultry,550,310,0.4,0.2,405890,1.1,1.07
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,405890,1.1,1.07
+,,r022,dried -- salted or smoked meat of pig,710,200,0.6,0.2,405890,1.1,1.07
+,,r023,dried -- salted or smoked other meats,120,60,..,..,405890,1.1,1.07
+,,r024,meat -- sausages and meat of sandwiches,670,190,0.5,0.1,405890,1.1,1.07
+,,r025,pastry -- cured meats and provisions,260,150,0.2,0.1,405890,1.1,1.07
+,,r026,meatdishes,200,120,..,..,405890,1.1,1.07
+,,r027,meat - unspecified,..,..,..,..,405890,1.1,1.07
+,,r028,fish,880,300,0.6,0.2,405890,1.1,1.07
+,,r029,fresh -- chilled or frozen fish -- of which:,470,240,0.3,0.1,405890,1.1,1.07
+,,r030,codfish,60,50,..,..,405890,1.1,1.07
+,,r031,salomonfish,260,190,0.2,0.1,405890,1.1,1.07
+,,r032,herring,..,..,..,..,405890,1.1,1.07
+,,r033,other fish,120,100,..,..,405890,1.1,1.07
+,,r034,seafood,70,50,..,..,405890,1.1,1.07
+,,r035,caviar -- roes -- other fishproducts,60,30,..,..,405890,1.1,1.07
+,,r036,fish and seafood dishes,280,140,..,..,405890,1.1,1.07
+,,r037,fish and seafood - unspecified,..,..,..,..,405890,1.1,1.07
+,,r038,milk -- cheese and eggs,3260,440,2.3,0.3,405890,1.1,1.07
+,,r039,milk (fat >=1 --5%),250,80,0.2,0.1,405890,1.1,1.07
+,,r040,low fat milk (fat <1 --5%),530,120,0.4,0.1,405890,1.1,1.07
+,,r041,preserved milk,..,..,..,..,405890,1.1,1.07
+,,r042,yoghurt and sour milk,510,140,0.4,0.1,405890,1.1,1.07
+,,r043,cream -- sour cream (fat>=29%),200,60,..,..,405890,1.1,1.07
+,,r044,cream -- sour cream (fat<29%),140,60,..,..,405890,1.1,1.07
+,,r045,cheese (fat >=17%),810,200,0.6,0.2,405890,1.1,1.07
+,,r046,cheese (fat <17%),490,180,0.3,0.1,405890,1.1,1.07
+,,r047,eggs,320,90,0.2,0.1,405890,1.1,1.07
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,405890,1.1,1.07
+,,r049,oils and fats,650,210,0.5,0.1,405890,1.1,1.07
+,,r050,butter,210,80,0.2,0.1,405890,1.1,1.07
+,,r051,margarine (fat>=40%),160,50,..,..,405890,1.1,1.07
+,,r052,margarine (fat<40%),90,40,..,..,405890,1.1,1.07
+,,r053,olive oil -- cooking oil -- mayonnaise,..,..,..,..,405890,1.1,1.07
+,,r054,fruit and berries,1540,290,1.1,0.2,405890,1.1,1.07
+,,r055,apples,190,60,..,..,405890,1.1,1.07
+,,r056,pears,70,40,..,..,405890,1.1,1.07
+,,r057,bananas,300,80,0.2,0.1,405890,1.1,1.07
+,,r058,citrus fruits,250,80,0.2,0.1,405890,1.1,1.07
+,,r059,other fresh fruit,170,90,..,..,405890,1.1,1.07
+,,r060,dried fruit,220,100,0.2,0.1,405890,1.1,1.07
+,,r061,berries,200,80,..,..,405890,1.1,1.07
+,,r062,preserved fruit and fruit based products,30,20,..,..,405890,1.1,1.07
+,,r063,others fruit and berries,..,..,..,..,405890,1.1,1.07
+,,r064,vegetables,2270,400,1.6,0.3,405890,1.1,1.07
+,,r065,leaf and stem vegetables,240,100,0.2,0.1,405890,1.1,1.07
+,,r066,cabbages -- fresh,90,50,..,..,405890,1.1,1.07
+,,r067,vegetables cultivated for their fruit -- fresh ,770,160,0.5,0.1,405890,1.1,1.07
+,,r068,onion -- leek -- fresh,100,30,..,..,405890,1.1,1.07
+,,r069,mashrooms -- fresh,..,..,..,..,405890,1.1,1.07
+,,r070,soups -- vegetabledishes,250,90,0.2,0.1,405890,1.1,1.07
+,,r071,root crops,170,100,..,..,405890,1.1,1.07
+,,r072,potatoes,330,110,0.3,0.1,405890,1.1,1.07
+,,r073,products of potatoes (french fries -- mashed potatoes),200,80,0.2,0.1,405890,1.1,1.07
+,,r074,vegetables - unspecified,..,..,..,..,405890,1.1,1.07
+,,r075,sugar and sweets,1650,300,1.2,0.2,405890,1.1,1.07
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,170,80,..,..,405890,1.1,1.07
+,,r077,jams -- marmelade,130,50,..,..,405890,1.1,1.07
+,,r078,ice cream,200,90,..,..,405890,1.1,1.07
+,,r079,other suger products,1150,250,0.8,0.2,405890,1.1,1.07
+,,r080,sauces -- condiments,250,140,..,..,405890,1.1,1.07
+,,r081,salt -- spices and culinary herbs,140,60,..,..,405890,1.1,1.07
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,330,250,0.2,0.1,405890,1.1,1.07
+,,r083,snacks,150,100,..,..,405890,1.1,1.07
+,,r084,unspec provisions,530,420,..,..,405890,1.1,1.07
+,,r085,non alcoholic beverages,1620,370,1.1,0.3,405890,1.1,1.07
+,,r086,fruit- and vegetable juices,180,70,0.2,0.1,405890,1.1,1.07
+,,r087,soft drinks,720,270,0.5,0.2,405890,1.1,1.07
+,,r088,mineral or spring waters,130,70,..,..,405890,1.1,1.07
+,,r089,coffee,480,150,0.3,0.1,405890,1.1,1.07
+,,r090,tee,100,70,..,..,405890,1.1,1.07
+,,r091,cacao,..,..,..,..,405890,1.1,1.07
+,,r092,dinner out,3860,1490,1.9,0.6,405890,1.1,1.07
+,,r093,alcoholic beverages (with low-strength beer),2050,780,1.3,0.5,405890,1.1,1.07
+,,r094,tobacco ,1680,730,1.2,0.5,405890,1.1,1.07
+,,r095,consumer goods,2970,1110,1.8,0.4,405890,1.1,1.07
+,,r096,personal hygiene,1670,820,0.9,0.3,405890,1.1,1.07
+,,r097,other consumption purposes,1300,370,0.9,0.2,405890,1.1,1.07
+,,r098,domestic services,3700,1740,2.0,0.9,405890,1.1,1.07
+,,r099,childminding,..,..,..,..,405890,1.1,1.07
+,,r100,charge of skill -- other insurance,510,170,0.3,0.1,405890,1.1,1.07
+,,r101,other services,3060,1720,1.6,0.9,405890,1.1,1.07
+,,r102,clothing and footwear,6880,3750,3.3,1.2,405890,1.1,1.07
+,,r103,clothing,6200,3680,2.9,1.2,405890,1.1,1.07
+,,r104, outdoor clothes,..,..,0.8,0.6,405890,1.1,1.07
+,,r105,other clothes,3030,1700,1.6,0.9,405890,1.1,1.07
+,,r106,underwear,560,300,0.4,0.2,405890,1.1,1.07
+,,r107,accessoarer -- hats -- caps -- gloves etc.,100,90,..,..,405890,1.1,1.07
+,,r108,footwear,680,570,..,..,405890,1.1,1.07
+,,r109,housing,53810,3710,39.3,2.9,405890,1.1,1.07
+,,r110,actual rentals for housing (incl. garage),37790,3840,29.2,3.5,405890,1.1,1.07
+,,r111,reparations,1080,630,0.6,0.4,405890,1.1,1.07
+,,r112,householder´s comprehensive insurance,1180,200,0.9,0.2,405890,1.1,1.07
+,,r113,services associates with housing ,1380,740,1.1,0.7,405890,1.1,1.07
+,,r114,electicity -- gas and other fuels ,4730,1020,3.4,0.8,405890,1.1,1.07
+,,r115,interests (gross),6250,2860,3.1,1.3,405890,1.1,1.07
+,,r116,furnishings -- household equipment and routine maintenance of the house,4800,1820,2.5,0.7,405890,1.1,1.07
+,,r117,furniture and furnishings -- carpets and other floor coverings,2150,820,1.3,0.4,405890,1.1,1.07
+,,r118,textile,740,730,0.3,0.2,405890,1.1,1.07
+,,r119,household applience,1910,760,0.9,0.3,405890,1.1,1.07
+,,r120,health and hospital services,5400,3450,2.9,1.3,405890,1.1,1.07
+,,r121,transport,23130,6370,12.2,2.6,405890,1.1,1.07
+,,r122,purchase of new motor-cars,6130,3890,2.2,1.6,405890,1.1,1.07
+,,r123,purchase of other vehicles,..,..,..,..,405890,1.1,1.07
+,,r124,operation of motor-cars,12520,3770,6.9,1.8,405890,1.1,1.07
+,,r125,interests (motorcars - gross) -- licence duty,810,210,0.5,0.1,405890,1.1,1.07
+,,r126,operation of other vehicles,..,..,..,..,405890,1.1,1.07
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),..,..,..,..,405890,1.1,1.07
+,,r128,services of transport,3220,1220,2.3,1.1,405890,1.1,1.07
+,,r129,leisure time and culture,26840,4780,17.0,2.1,405890,1.1,1.07
+,,r130,weekend cottage,840,800,..,..,405890,1.1,1.07
+,,r131,radio and tv,2510,1080,1.5,0.5,405890,1.1,1.07
+,,r132,sport and hobby,2740,1580,1.4,0.8,405890,1.1,1.07
+,,r133,watch -- camera -- photographic and cinematographic equipment,..,..,..,..,405890,1.1,1.07
+,,r134,holidays -- hotels,4570,2030,2.8,1.3,405890,1.1,1.07
+,,r135,other spare time,4790,1970,2.9,0.9,405890,1.1,1.07
+,,r136,entertainment,760,430,0.4,0.2,405890,1.1,1.07
+,,r137,books -- newspapers -- television taxes,6000,1110,4.0,0.7,405890,1.1,1.07
+,,r138,mobiltelephone (callcharge and subscription fee),1620,520,1.1,0.4,405890,1.1,1.07
+,,r139,telephone (callcharge and subscription fee),2480,360,2.0,0.4,405890,1.1,1.07
+D3,decil 3,r001,total expenditures,183060,22150,100.0,0.0,406870,1.4,1.19
+,,r002,food,21740,2270,14.2,1.7,406870,1.4,1.19
+,,r003,bread and cereals,3520,470,2.4,0.4,406870,1.4,1.19
+,,r004,rice and products of rice -- of which:,160,70,..,..,406870,1.4,1.19
+,,r005,rice,90,50,..,..,406870,1.4,1.19
+,,r006,products of rice,70,50,..,..,406870,1.4,1.19
+,,r007,pasta products,260,90,0.2,0.1,406870,1.4,1.19
+,,r008,flour -- grain,410,120,0.3,0.1,406870,1.4,1.19
+,,r009,bread -- of which:,1570,230,1.1,0.2,406870,1.4,1.19
+,,r010,hard bread,260,90,0.2,0.1,406870,1.4,1.19
+,,r011,soft white bread,290,80,..,..,406870,1.4,1.19
+,,r012,soft brown bread,190,60,..,..,406870,1.4,1.19
+,,r013,soft light bread,500,130,0.4,0.2,406870,1.4,1.19
+,,r014,bread unspecified,330,150,0.2,0.1,406870,1.4,1.19
+,,r015,pastry-cook products,1120,270,0.8,0.2,406870,1.4,1.19
+,,r016,meat,4330,750,3.0,0.6,406870,1.4,1.19
+,,r017,fresh -- chilled or frozen meat of bovine animals,540,210,0.3,0.1,406870,1.4,1.19
+,,r018,fresh -- chilled or frozen meat of pig,1010,360,0.7,0.2,406870,1.4,1.19
+,,r019,fresh -- chilled or frozen meat of sheep and goat,140,100,..,..,406870,1.4,1.19
+,,r020,fresh -- chilled or frozen meat of poultry,450,160,0.3,0.1,406870,1.4,1.19
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,406870,1.4,1.19
+,,r022,dried -- salted or smoked meat of pig,810,190,0.6,0.1,406870,1.4,1.19
+,,r023,dried -- salted or smoked other meats,150,70,..,..,406870,1.4,1.19
+,,r024,meat -- sausages and meat of sandwiches,670,150,0.4,0.1,406870,1.4,1.19
+,,r025,pastry -- cured meats and provisions,320,150,..,..,406870,1.4,1.19
+,,r026,meatdishes,180,100,..,..,406870,1.4,1.19
+,,r027,meat - unspecified,60,40,..,..,406870,1.4,1.19
+,,r028,fish,1350,370,0.9,0.3,406870,1.4,1.19
+,,r029,fresh -- chilled or frozen fish -- of which:,620,300,0.4,0.2,406870,1.4,1.19
+,,r030,codfish,70,40,..,..,406870,1.4,1.19
+,,r031,salomonfish,300,170,0.2,0.1,406870,1.4,1.19
+,,r032,herring,..,..,..,..,406870,1.4,1.19
+,,r033,other fish,70,60,..,..,406870,1.4,1.19
+,,r034,seafood,90,80,..,..,406870,1.4,1.19
+,,r035,caviar -- roes -- other fishproducts,130,50,..,..,406870,1.4,1.19
+,,r036,fish and seafood dishes,510,230,0.4,0.2,406870,1.4,1.19
+,,r037,fish and seafood - unspecified,..,..,..,..,406870,1.4,1.19
+,,r038,milk -- cheese and eggs,3720,450,2.4,0.4,406870,1.4,1.19
+,,r039,milk (fat >=1 --5%),340,120,0.2,0.1,406870,1.4,1.19
+,,r040,low fat milk (fat <1 --5%),540,110,0.4,0.1,406870,1.4,1.19
+,,r041,preserved milk,30,20,..,..,406870,1.4,1.19
+,,r042,yoghurt and sour milk,550,140,0.4,0.1,406870,1.4,1.19
+,,r043,cream -- sour cream (fat>=29%),190,70,..,..,406870,1.4,1.19
+,,r044,cream -- sour cream (fat<29%),210,70,..,..,406870,1.4,1.19
+,,r045,cheese (fat >=17%),1000,230,0.6,0.2,406870,1.4,1.19
+,,r046,cheese (fat <17%),510,130,0.3,0.1,406870,1.4,1.19
+,,r047,eggs,350,90,0.2,0.1,406870,1.4,1.19
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,406870,1.4,1.19
+,,r049,oils and fats,730,140,0.5,0.1,406870,1.4,1.19
+,,r050,butter,270,90,0.2,0.1,406870,1.4,1.19
+,,r051,margarine (fat>=40%),160,50,..,..,406870,1.4,1.19
+,,r052,margarine (fat<40%),100,50,..,..,406870,1.4,1.19
+,,r053,olive oil -- cooking oil -- mayonnaise,200,70,..,..,406870,1.4,1.19
+,,r054,fruit and berries,1770,300,1.2,0.2,406870,1.4,1.19
+,,r055,apples,200,50,..,..,406870,1.4,1.19
+,,r056,pears,90,40,..,..,406870,1.4,1.19
+,,r057,bananas,270,70,..,..,406870,1.4,1.19
+,,r058,citrus fruits,320,90,0.2,0.1,406870,1.4,1.19
+,,r059,other fresh fruit,210,80,..,..,406870,1.4,1.19
+,,r060,dried fruit,250,110,0.2,0.1,406870,1.4,1.19
+,,r061,berries,300,140,0.2,0.1,406870,1.4,1.19
+,,r062,preserved fruit and fruit based products,30,20,..,..,406870,1.4,1.19
+,,r063,others fruit and berries,90,70,..,..,406870,1.4,1.19
+,,r064,vegetables,2530,390,1.6,0.2,406870,1.4,1.19
+,,r065,leaf and stem vegetables,290,90,..,..,406870,1.4,1.19
+,,r066,cabbages -- fresh,60,40,..,..,406870,1.4,1.19
+,,r067,vegetables cultivated for their fruit -- fresh ,770,180,0.5,0.1,406870,1.4,1.19
+,,r068,onion -- leek -- fresh,140,50,..,..,406870,1.4,1.19
+,,r069,mashrooms -- fresh,..,..,..,..,406870,1.4,1.19
+,,r070,soups -- vegetabledishes,440,110,0.3,0.1,406870,1.4,1.19
+,,r071,root crops,180,60,..,..,406870,1.4,1.19
+,,r072,potatoes,320,80,0.2,0.1,406870,1.4,1.19
+,,r073,products of potatoes (french fries -- mashed potatoes),240,90,0.2,0.1,406870,1.4,1.19
+,,r074,vegetables - unspecified,..,..,..,..,406870,1.4,1.19
+,,r075,sugar and sweets,2180,360,1.3,0.2,406870,1.4,1.19
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,230,80,..,..,406870,1.4,1.19
+,,r077,jams -- marmelade,160,70,..,..,406870,1.4,1.19
+,,r078,ice cream,410,130,0.2,0.1,406870,1.4,1.19
+,,r079,other suger products,1380,280,0.8,0.1,406870,1.4,1.19
+,,r080,sauces -- condiments,330,90,0.2,0.1,406870,1.4,1.19
+,,r081,salt -- spices and culinary herbs,210,80,..,..,406870,1.4,1.19
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,170,50,..,..,406870,1.4,1.19
+,,r083,snacks,220,80,..,..,406870,1.4,1.19
+,,r084,unspec provisions,680,510,0.4,0.3,406870,1.4,1.19
+,,r085,non alcoholic beverages,1810,330,1.1,0.2,406870,1.4,1.19
+,,r086,fruit- and vegetable juices,240,80,0.2,0.1,406870,1.4,1.19
+,,r087,soft drinks,770,220,0.5,0.1,406870,1.4,1.19
+,,r088,mineral or spring waters,100,50,..,..,406870,1.4,1.19
+,,r089,coffee,540,160,0.3,0.1,406870,1.4,1.19
+,,r090,tee,120,90,..,..,406870,1.4,1.19
+,,r091,cacao,..,..,..,..,406870,1.4,1.19
+,,r092,dinner out,5350,1380,3.3,0.9,406870,1.4,1.19
+,,r093,alcoholic beverages (with low-strength beer),2360,720,1.5,0.5,406870,1.4,1.19
+,,r094,tobacco ,2200,870,1.3,0.5,406870,1.4,1.19
+,,r095,consumer goods,3120,770,1.7,0.4,406870,1.4,1.19
+,,r096,personal hygiene,1730,540,1.0,0.3,406870,1.4,1.19
+,,r097,other consumption purposes,1390,420,0.8,0.2,406870,1.4,1.19
+,,r098,domestic services,5620,2480,2.6,0.8,406870,1.4,1.19
+,,r099,childminding,420,270,0.2,0.1,406870,1.4,1.19
+,,r100,charge of skill -- other insurance,590,200,0.4,0.1,406870,1.4,1.19
+,,r101,other services,4600,2450,2.0,0.8,406870,1.4,1.19
+,,r102,clothing and footwear,6160,2030,3.1,0.9,406870,1.4,1.19
+,,r103,clothing,4940,1760,2.5,0.8,406870,1.4,1.19
+,,r104, outdoor clothes,490,300,0.2,0.1,406870,1.4,1.19
+,,r105,other clothes,3110,1420,1.6,0.6,406870,1.4,1.19
+,,r106,underwear,680,500,0.3,0.2,406870,1.4,1.19
+,,r107,accessoarer -- hats -- caps -- gloves etc.,400,350,0.2,0.1,406870,1.4,1.19
+,,r108,footwear,1220,730,0.7,0.4,406870,1.4,1.19
+,,r109,housing,52240,3430,32.1,2.4,406870,1.4,1.19
+,,r110,actual rentals for housing (incl. garage),36570,3850,23.3,2.7,406870,1.4,1.19
+,,r111,reparations,..,..,0.6,0.5,406870,1.4,1.19
+,,r112,householder´s comprehensive insurance,1140,200,0.7,0.1,406870,1.4,1.19
+,,r113,services associates with housing ,1800,720,1.0,0.5,406870,1.4,1.19
+,,r114,electicity -- gas and other fuels ,5130,1160,3.1,0.8,406870,1.4,1.19
+,,r115,interests (gross),4970,2060,2.6,1.1,406870,1.4,1.19
+,,r116,furnishings -- household equipment and routine maintenance of the house,8630,3160,4.4,1.5,406870,1.4,1.19
+,,r117,furniture and furnishings -- carpets and other floor coverings,4080,1970,2.0,0.9,406870,1.4,1.19
+,,r118,textile,1080,800,0.6,0.5,406870,1.4,1.19
+,,r119,household applience,3470,1430,1.8,0.6,406870,1.4,1.19
+,,r120,health and hospital services,4910,3090,2.7,1.4,406870,1.4,1.19
+,,r121,transport,29230,8880,13.3,2.6,406870,1.4,1.19
+,,r122,purchase of new motor-cars,9270,6420,2.7,1.6,406870,1.4,1.19
+,,r123,purchase of other vehicles,400,270,0.3,0.2,406870,1.4,1.19
+,,r124,operation of motor-cars,15370,4810,7.9,2.1,406870,1.4,1.19
+,,r125,interests (motorcars - gross) -- licence duty,1460,390,0.8,0.2,406870,1.4,1.19
+,,r126,operation of other vehicles,420,370,..,..,406870,1.4,1.19
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),..,..,..,..,406870,1.4,1.19
+,,r128,services of transport,2300,800,1.3,0.5,406870,1.4,1.19
+,,r129,leisure time and culture,38780,16400,18.3,2.1,406870,1.4,1.19
+,,r130,weekend cottage,2760,1660,1.7,1.0,406870,1.4,1.19
+,,r131,radio and tv,2230,810,1.4,0.4,406870,1.4,1.19
+,,r132,sport and hobby,..,..,1.8,1.0,406870,1.4,1.19
+,,r133,watch -- camera -- photographic and cinematographic equipment,..,..,0.3,0.2,406870,1.4,1.19
+,,r134,holidays -- hotels,6440,2240,3.9,1.5,406870,1.4,1.19
+,,r135,other spare time,4000,1140,2.5,0.7,406870,1.4,1.19
+,,r136,entertainment,590,340,0.3,0.2,406870,1.4,1.19
+,,r137,books -- newspapers -- television taxes,6620,1550,3.8,0.7,406870,1.4,1.19
+,,r138,mobiltelephone (callcharge and subscription fee),1970,500,1.2,0.3,406870,1.4,1.19
+,,r139,telephone (callcharge and subscription fee),2410,350,1.5,0.2,406870,1.4,1.19
+D4,decil 4,r001,total expenditures,219070,18860,100.0,0.0,406200,1.7,1.35
+,,r002,food,27560,2360,13.5,1.1,406200,1.7,1.35
+,,r003,bread and cereals,4660,570,2.4,0.3,406200,1.7,1.35
+,,r004,rice and products of rice -- of which:,160,100,..,..,406200,1.7,1.35
+,,r005,rice,110,100,..,..,406200,1.7,1.35
+,,r006,products of rice,50,30,..,..,406200,1.7,1.35
+,,r007,pasta products,220,80,..,..,406200,1.7,1.35
+,,r008,flour -- grain,660,390,0.4,0.3,406200,1.7,1.35
+,,r009,bread -- of which:,2030,220,1.0,0.1,406200,1.7,1.35
+,,r010,hard bread,300,70,..,..,406200,1.7,1.35
+,,r011,soft white bread,380,80,..,..,406200,1.7,1.35
+,,r012,soft brown bread,350,90,0.2,0.1,406200,1.7,1.35
+,,r013,soft light bread,640,130,0.3,0.1,406200,1.7,1.35
+,,r014,bread unspecified,360,100,0.2,0.1,406200,1.7,1.35
+,,r015,pastry-cook products,1590,330,0.8,0.2,406200,1.7,1.35
+,,r016,meat,5590,860,2.7,0.4,406200,1.7,1.35
+,,r017,fresh -- chilled or frozen meat of bovine animals,720,240,0.3,0.1,406200,1.7,1.35
+,,r018,fresh -- chilled or frozen meat of pig,1000,240,0.5,0.1,406200,1.7,1.35
+,,r019,fresh -- chilled or frozen meat of sheep and goat,..,..,..,..,406200,1.7,1.35
+,,r020,fresh -- chilled or frozen meat of poultry,390,130,0.2,0.1,406200,1.7,1.35
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,406200,1.7,1.35
+,,r022,dried -- salted or smoked meat of pig,1320,240,0.6,0.1,406200,1.7,1.35
+,,r023,dried -- salted or smoked other meats,180,70,..,..,406200,1.7,1.35
+,,r024,meat -- sausages and meat of sandwiches,1070,270,0.5,0.2,406200,1.7,1.35
+,,r025,pastry -- cured meats and provisions,350,150,0.2,0.1,406200,1.7,1.35
+,,r026,meatdishes,230,110,..,..,406200,1.7,1.35
+,,r027,meat - unspecified,..,..,..,..,406200,1.7,1.35
+,,r028,fish,1520,300,0.7,0.1,406200,1.7,1.35
+,,r029,fresh -- chilled or frozen fish -- of which:,620,190,0.3,0.1,406200,1.7,1.35
+,,r030,codfish,170,120,..,..,406200,1.7,1.35
+,,r031,salomonfish,250,110,..,..,406200,1.7,1.35
+,,r032,herring,..,..,..,..,406200,1.7,1.35
+,,r033,other fish,60,40,..,..,406200,1.7,1.35
+,,r034,seafood,150,60,..,..,406200,1.7,1.35
+,,r035,caviar -- roes -- other fishproducts,110,40,..,..,406200,1.7,1.35
+,,r036,fish and seafood dishes,650,170,0.3,0.1,406200,1.7,1.35
+,,r037,fish and seafood - unspecified,110,90,..,..,406200,1.7,1.35
+,,r038,milk -- cheese and eggs,4690,490,2.3,0.2,406200,1.7,1.35
+,,r039,milk (fat >=1 --5%),350,100,0.2,0.1,406200,1.7,1.35
+,,r040,low fat milk (fat <1 --5%),820,160,0.4,0.1,406200,1.7,1.35
+,,r041,preserved milk,60,40,..,..,406200,1.7,1.35
+,,r042,yoghurt and sour milk,810,160,0.4,0.1,406200,1.7,1.35
+,,r043,cream -- sour cream (fat>=29%),230,60,..,..,406200,1.7,1.35
+,,r044,cream -- sour cream (fat<29%),280,70,..,..,406200,1.7,1.35
+,,r045,cheese (fat >=17%),1170,210,0.6,0.1,406200,1.7,1.35
+,,r046,cheese (fat <17%),520,130,0.3,0.1,406200,1.7,1.35
+,,r047,eggs,450,80,..,..,406200,1.7,1.35
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,406200,1.7,1.35
+,,r049,oils and fats,840,130,0.4,0.1,406200,1.7,1.35
+,,r050,butter,340,80,..,..,406200,1.7,1.35
+,,r051,margarine (fat>=40%),220,50,..,..,406200,1.7,1.35
+,,r052,margarine (fat<40%),100,40,..,..,406200,1.7,1.35
+,,r053,olive oil -- cooking oil -- mayonnaise,170,70,..,..,406200,1.7,1.35
+,,r054,fruit and berries,2550,420,1.3,0.3,406200,1.7,1.35
+,,r055,apples,330,80,..,..,406200,1.7,1.35
+,,r056,pears,100,40,..,..,406200,1.7,1.35
+,,r057,bananas,380,90,..,..,406200,1.7,1.35
+,,r058,citrus fruits,490,140,0.2,0.1,406200,1.7,1.35
+,,r059,other fresh fruit,240,60,..,..,406200,1.7,1.35
+,,r060,dried fruit,480,170,0.3,0.1,406200,1.7,1.35
+,,r061,berries,400,150,0.2,0.1,406200,1.7,1.35
+,,r062,preserved fruit and fruit based products,100,80,..,..,406200,1.7,1.35
+,,r063,others fruit and berries,40,30,..,..,406200,1.7,1.35
+,,r064,vegetables,2920,340,1.5,0.2,406200,1.7,1.35
+,,r065,leaf and stem vegetables,270,70,..,..,406200,1.7,1.35
+,,r066,cabbages -- fresh,120,40,..,..,406200,1.7,1.35
+,,r067,vegetables cultivated for their fruit -- fresh ,1030,170,0.5,0.1,406200,1.7,1.35
+,,r068,onion -- leek -- fresh,130,30,..,..,406200,1.7,1.35
+,,r069,mashrooms -- fresh,..,..,..,..,406200,1.7,1.35
+,,r070,soups -- vegetabledishes,450,100,0.3,0.1,406200,1.7,1.35
+,,r071,root crops,210,70,..,..,406200,1.7,1.35
+,,r072,potatoes,350,90,..,..,406200,1.7,1.35
+,,r073,products of potatoes (french fries -- mashed potatoes),300,90,..,..,406200,1.7,1.35
+,,r074,vegetables - unspecified,..,..,..,..,406200,1.7,1.35
+,,r075,sugar and sweets,2690,390,1.2,0.2,406200,1.7,1.35
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,260,90,..,..,406200,1.7,1.35
+,,r077,jams -- marmelade,150,50,..,..,406200,1.7,1.35
+,,r078,ice cream,560,200,0.2,0.1,406200,1.7,1.35
+,,r079,other suger products,1720,280,0.8,0.1,406200,1.7,1.35
+,,r080,sauces -- condiments,390,80,..,..,406200,1.7,1.35
+,,r081,salt -- spices and culinary herbs,240,70,..,..,406200,1.7,1.35
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,220,70,..,..,406200,1.7,1.35
+,,r083,snacks,290,120,..,..,406200,1.7,1.35
+,,r084,unspec provisions,930,770,0.4,0.3,406200,1.7,1.35
+,,r085,non alcoholic beverages,2400,340,1.2,0.2,406200,1.7,1.35
+,,r086,fruit- and vegetable juices,350,90,..,..,406200,1.7,1.35
+,,r087,soft drinks,1140,270,0.6,0.2,406200,1.7,1.35
+,,r088,mineral or spring waters,170,70,..,..,406200,1.7,1.35
+,,r089,coffee,610,150,0.3,0.1,406200,1.7,1.35
+,,r090,tee,110,70,..,..,406200,1.7,1.35
+,,r091,cacao,..,..,..,..,406200,1.7,1.35
+,,r092,dinner out,7050,1900,3.2,0.8,406200,1.7,1.35
+,,r093,alcoholic beverages (with low-strength beer),3200,930,1.4,0.4,406200,1.7,1.35
+,,r094,tobacco ,2220,780,1.1,0.4,406200,1.7,1.35
+,,r095,consumer goods,4040,730,1.9,0.3,406200,1.7,1.35
+,,r096,personal hygiene,2010,510,0.9,0.2,406200,1.7,1.35
+,,r097,other consumption purposes,2030,380,1.0,0.2,406200,1.7,1.35
+,,r098,domestic services,6530,2160,2.8,0.9,406200,1.7,1.35
+,,r099,childminding,360,190,0.2,0.1,406200,1.7,1.35
+,,r100,charge of skill -- other insurance,820,220,0.4,0.1,406200,1.7,1.35
+,,r101,other services,5350,2150,2.3,0.9,406200,1.7,1.35
+,,r102,clothing and footwear,11740,3830,4.5,1.3,406200,1.7,1.35
+,,r103,clothing,9540,3540,3.8,1.2,406200,1.7,1.35
+,,r104, outdoor clothes,2190,1400,0.9,0.5,406200,1.7,1.35
+,,r105,other clothes,5240,2180,2.0,0.7,406200,1.7,1.35
+,,r106,underwear,1250,600,0.5,0.2,406200,1.7,1.35
+,,r107,accessoarer -- hats -- caps -- gloves etc.,..,..,..,..,406200,1.7,1.35
+,,r108,footwear,2200,1090,0.7,0.4,406200,1.7,1.35
+,,r109,housing,59670,3800,30.1,2.4,406200,1.7,1.35
+,,r110,actual rentals for housing (incl. garage),34950,4290,18.8,2.6,406200,1.7,1.35
+,,r111,reparations,2440,1030,1.1,0.5,406200,1.7,1.35
+,,r112,householder´s comprehensive insurance,1810,320,0.9,0.2,406200,1.7,1.35
+,,r113,services associates with housing ,3190,970,1.4,0.5,406200,1.7,1.35
+,,r114,electicity -- gas and other fuels ,7990,1420,3.8,0.7,406200,1.7,1.35
+,,r115,interests (gross),7560,2340,3.3,1.0,406200,1.7,1.35
+,,r116,furnishings -- household equipment and routine maintenance of the house,12030,4170,4.6,1.1,406200,1.7,1.35
+,,r117,furniture and furnishings -- carpets and other floor coverings,3870,1380,1.5,0.5,406200,1.7,1.35
+,,r118,textile,750,410,0.3,0.2,406200,1.7,1.35
+,,r119,household applience,7420,3400,2.8,0.8,406200,1.7,1.35
+,,r120,health and hospital services,5130,2600,1.9,0.7,406200,1.7,1.35
+,,r121,transport,33520,7700,13.3,2.3,406200,1.7,1.35
+,,r122,purchase of new motor-cars,6080,4550,..,..,406200,1.7,1.35
+,,r123,purchase of other vehicles,3790,3730,..,..,406200,1.7,1.35
+,,r124,operation of motor-cars,17850,3290,8.1,1.6,406200,1.7,1.35
+,,r125,interests (motorcars - gross) -- licence duty,1550,250,0.7,0.1,406200,1.7,1.35
+,,r126,operation of other vehicles,770,520,0.3,0.2,406200,1.7,1.35
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),..,..,..,..,406200,1.7,1.35
+,,r128,services of transport,3360,1690,1.3,0.5,406200,1.7,1.35
+,,r129,leisure time and culture,42430,7210,18.2,2.1,406200,1.7,1.35
+,,r130,weekend cottage,3480,2480,1.5,0.9,406200,1.7,1.35
+,,r131,radio and tv,3220,1230,1.3,0.4,406200,1.7,1.35
+,,r132,sport and hobby,5970,4540,2.2,1.3,406200,1.7,1.35
+,,r133,watch -- camera -- photographic and cinematographic equipment,..,..,..,..,406200,1.7,1.35
+,,r134,holidays -- hotels,7450,2020,3.1,0.9,406200,1.7,1.35
+,,r135,other spare time,5200,1230,2.2,0.5,406200,1.7,1.35
+,,r136,entertainment,1500,820,0.7,0.4,406200,1.7,1.35
+,,r137,books -- newspapers -- television taxes,8610,1250,4.2,0.6,406200,1.7,1.35
+,,r138,mobiltelephone (callcharge and subscription fee),1840,680,0.8,0.4,406200,1.7,1.35
+,,r139,telephone (callcharge and subscription fee),2940,300,1.6,0.2,406200,1.7,1.35
+D5,decil 5,r001,total expenditures,245680,15550,100.0,0.0,409270,1.8,1.38
+,,r002,food,28430,2960,12.6,1.3,409270,1.8,1.38
+,,r003,bread and cereals,4340,590,2.0,0.3,409270,1.8,1.38
+,,r004,rice and products of rice -- of which:,170,60,..,..,409270,1.8,1.38
+,,r005,rice,90,50,..,..,409270,1.8,1.38
+,,r006,products of rice,80,40,..,..,409270,1.8,1.38
+,,r007,pasta products,220,70,..,..,409270,1.8,1.38
+,,r008,flour -- grain,440,100,..,..,409270,1.8,1.38
+,,r009,bread -- of which:,1840,340,0.8,0.2,409270,1.8,1.38
+,,r010,hard bread,360,160,0.2,0.1,409270,1.8,1.38
+,,r011,soft white bread,350,80,..,..,409270,1.8,1.38
+,,r012,soft brown bread,290,100,..,..,409270,1.8,1.38
+,,r013,soft light bread,520,140,..,..,409270,1.8,1.38
+,,r014,bread unspecified,320,90,0.2,0.1,409270,1.8,1.38
+,,r015,pastry-cook products,1670,320,0.8,0.2,409270,1.8,1.38
+,,r016,meat,5170,740,2.2,0.3,409270,1.8,1.38
+,,r017,fresh -- chilled or frozen meat of bovine animals,570,200,0.2,0.1,409270,1.8,1.38
+,,r018,fresh -- chilled or frozen meat of pig,970,280,0.4,0.1,409270,1.8,1.38
+,,r019,fresh -- chilled or frozen meat of sheep and goat,70,50,..,..,409270,1.8,1.38
+,,r020,fresh -- chilled or frozen meat of poultry,540,160,0.2,0.1,409270,1.8,1.38
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,409270,1.8,1.38
+,,r022,dried -- salted or smoked meat of pig,1190,290,0.6,0.1,409270,1.8,1.38
+,,r023,dried -- salted or smoked other meats,150,80,..,..,409270,1.8,1.38
+,,r024,meat -- sausages and meat of sandwiches,840,200,0.4,0.1,409270,1.8,1.38
+,,r025,pastry -- cured meats and provisions,360,160,0.2,0.1,409270,1.8,1.38
+,,r026,meatdishes,420,290,0.2,0.1,409270,1.8,1.38
+,,r027,meat - unspecified,40,30,..,..,409270,1.8,1.38
+,,r028,fish,1790,490,0.8,0.2,409270,1.8,1.38
+,,r029,fresh -- chilled or frozen fish -- of which:,680,200,0.3,0.1,409270,1.8,1.38
+,,r030,codfish,120,50,..,..,409270,1.8,1.38
+,,r031,salomonfish,290,110,..,..,409270,1.8,1.38
+,,r032,herring,..,..,..,..,409270,1.8,1.38
+,,r033,other fish,160,90,..,..,409270,1.8,1.38
+,,r034,seafood,370,340,0.2,0.1,409270,1.8,1.38
+,,r035,caviar -- roes -- other fishproducts,120,60,..,..,409270,1.8,1.38
+,,r036,fish and seafood dishes,630,180,0.3,0.1,409270,1.8,1.38
+,,r037,fish and seafood - unspecified,..,..,..,..,409270,1.8,1.38
+,,r038,milk -- cheese and eggs,4660,640,2.1,0.3,409270,1.8,1.38
+,,r039,milk (fat >=1 --5%),290,80,..,..,409270,1.8,1.38
+,,r040,low fat milk (fat <1 --5%),770,180,0.3,0.1,409270,1.8,1.38
+,,r041,preserved milk,..,..,..,..,409270,1.8,1.38
+,,r042,yoghurt and sour milk,700,150,0.3,0.1,409270,1.8,1.38
+,,r043,cream -- sour cream (fat>=29%),280,90,..,..,409270,1.8,1.38
+,,r044,cream -- sour cream (fat<29%),280,70,..,..,409270,1.8,1.38
+,,r045,cheese (fat >=17%),1320,240,0.6,0.2,409270,1.8,1.38
+,,r046,cheese (fat <17%),550,130,0.3,0.1,409270,1.8,1.38
+,,r047,eggs,430,80,..,..,409270,1.8,1.38
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,409270,1.8,1.38
+,,r049,oils and fats,820,160,0.4,0.1,409270,1.8,1.38
+,,r050,butter,360,100,..,..,409270,1.8,1.38
+,,r051,margarine (fat>=40%),210,70,..,..,409270,1.8,1.38
+,,r052,margarine (fat<40%),70,40,..,..,409270,1.8,1.38
+,,r053,olive oil -- cooking oil -- mayonnaise,180,70,..,..,409270,1.8,1.38
+,,r054,fruit and berries,2370,350,1.0,0.2,409270,1.8,1.38
+,,r055,apples,290,90,..,..,409270,1.8,1.38
+,,r056,pears,120,50,..,..,409270,1.8,1.38
+,,r057,bananas,330,80,..,..,409270,1.8,1.38
+,,r058,citrus fruits,370,110,..,..,409270,1.8,1.38
+,,r059,other fresh fruit,300,100,..,..,409270,1.8,1.38
+,,r060,dried fruit,380,110,..,..,409270,1.8,1.38
+,,r061,berries,390,110,0.2,0.1,409270,1.8,1.38
+,,r062,preserved fruit and fruit based products,90,40,..,..,409270,1.8,1.38
+,,r063,others fruit and berries,80,50,..,..,409270,1.8,1.38
+,,r064,vegetables,3140,460,1.4,0.2,409270,1.8,1.38
+,,r065,leaf and stem vegetables,310,80,..,..,409270,1.8,1.38
+,,r066,cabbages -- fresh,130,50,..,..,409270,1.8,1.38
+,,r067,vegetables cultivated for their fruit -- fresh ,990,220,0.4,0.1,409270,1.8,1.38
+,,r068,onion -- leek -- fresh,150,40,..,..,409270,1.8,1.38
+,,r069,mashrooms -- fresh,50,30,..,..,409270,1.8,1.38
+,,r070,soups -- vegetabledishes,470,120,0.2,0.1,409270,1.8,1.38
+,,r071,root crops,190,60,..,..,409270,1.8,1.38
+,,r072,potatoes,420,90,..,..,409270,1.8,1.38
+,,r073,products of potatoes (french fries -- mashed potatoes),340,100,..,..,409270,1.8,1.38
+,,r074,vegetables - unspecified,..,..,..,..,409270,1.8,1.38
+,,r075,sugar and sweets,2620,390,1.1,0.2,409270,1.8,1.38
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,170,60,..,..,409270,1.8,1.38
+,,r077,jams -- marmelade,170,50,..,..,409270,1.8,1.38
+,,r078,ice cream,480,160,0.2,0.1,409270,1.8,1.38
+,,r079,other suger products,1810,300,0.8,0.1,409270,1.8,1.38
+,,r080,sauces -- condiments,410,100,..,..,409270,1.8,1.38
+,,r081,salt -- spices and culinary herbs,240,70,..,..,409270,1.8,1.38
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,200,50,..,..,409270,1.8,1.38
+,,r083,snacks,300,90,..,..,409270,1.8,1.38
+,,r084,unspec provisions,2360,1660,1.1,0.8,409270,1.8,1.38
+,,r085,non alcoholic beverages,2100,280,1.0,0.1,409270,1.8,1.38
+,,r086,fruit- and vegetable juices,390,100,0.2,0.1,409270,1.8,1.38
+,,r087,soft drinks,810,170,0.4,0.1,409270,1.8,1.38
+,,r088,mineral or spring waters,230,80,..,..,409270,1.8,1.38
+,,r089,coffee,530,130,0.2,0.1,409270,1.8,1.38
+,,r090,tee,110,60,..,..,409270,1.8,1.38
+,,r091,cacao,40,30,..,..,409270,1.8,1.38
+,,r092,dinner out,9440,2200,4.1,0.9,409270,1.8,1.38
+,,r093,alcoholic beverages (with low-strength beer),3450,960,1.6,0.5,409270,1.8,1.38
+,,r094,tobacco ,2530,1060,1.1,0.5,409270,1.8,1.38
+,,r095,consumer goods,4830,1000,1.9,0.4,409270,1.8,1.38
+,,r096,personal hygiene,2480,630,1.0,0.2,409270,1.8,1.38
+,,r097,other consumption purposes,2350,650,0.9,0.2,409270,1.8,1.38
+,,r098,domestic services,6170,2010,2.3,0.7,409270,1.8,1.38
+,,r099,childminding,520,330,0.2,0.1,409270,1.8,1.38
+,,r100,charge of skill -- other insurance,1220,470,0.5,0.2,409270,1.8,1.38
+,,r101,other services,4430,1890,1.6,0.6,409270,1.8,1.38
+,,r102,clothing and footwear,11270,3170,4.2,1.1,409270,1.8,1.38
+,,r103,clothing,9590,2770,3.5,0.9,409270,1.8,1.38
+,,r104, outdoor clothes,2250,1290,0.8,0.4,409270,1.8,1.38
+,,r105,other clothes,5420,2090,1.9,0.7,409270,1.8,1.38
+,,r106,underwear,1210,610,0.5,0.3,409270,1.8,1.38
+,,r107,accessoarer -- hats -- caps -- gloves etc.,340,190,..,..,409270,1.8,1.38
+,,r108,footwear,1680,880,0.7,0.4,409270,1.8,1.38
+,,r109,housing,68040,5660,30.2,2.5,409270,1.8,1.38
+,,r110,actual rentals for housing (incl. garage),35450,4720,17.1,2.6,409270,1.8,1.38
+,,r111,reparations,6170,3850,2.0,1.2,409270,1.8,1.38
+,,r112,householder´s comprehensive insurance,1600,230,0.7,0.1,409270,1.8,1.38
+,,r113,services associates with housing ,3520,1000,1.6,0.5,409270,1.8,1.38
+,,r114,electicity -- gas and other fuels ,9170,1670,4.1,0.8,409270,1.8,1.38
+,,r115,interests (gross),10340,2910,3.9,1.2,409270,1.8,1.38
+,,r116,furnishings -- household equipment and routine maintenance of the house,12350,3120,4.6,0.9,409270,1.8,1.38
+,,r117,furniture and furnishings -- carpets and other floor coverings,5060,1420,1.9,0.5,409270,1.8,1.38
+,,r118,textile,630,350,0.3,0.2,409270,1.8,1.38
+,,r119,household applience,6670,2730,2.4,0.7,409270,1.8,1.38
+,,r120,health and hospital services,5020,1930,2.0,0.7,409270,1.8,1.38
+,,r121,transport,41410,9270,14.4,2.6,409270,1.8,1.38
+,,r122,purchase of new motor-cars,14010,6550,3.9,2.0,409270,1.8,1.38
+,,r123,purchase of other vehicles,..,..,..,..,409270,1.8,1.38
+,,r124,operation of motor-cars,21010,5500,7.9,1.5,409270,1.8,1.38
+,,r125,interests (motorcars - gross) -- licence duty,1460,230,0.6,0.1,409270,1.8,1.38
+,,r126,operation of other vehicles,440,270,0.2,0.1,409270,1.8,1.38
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),..,..,..,..,409270,1.8,1.38
+,,r128,services of transport,3400,2030,1.4,0.6,409270,1.8,1.38
+,,r129,leisure time and culture,45770,6840,18.6,2.1,409270,1.8,1.38
+,,r130,weekend cottage,2870,1580,1.1,0.5,409270,1.8,1.38
+,,r131,radio and tv,3560,1330,1.3,0.4,409270,1.8,1.38
+,,r132,sport and hobby,2990,1120,1.2,0.5,409270,1.8,1.38
+,,r133,watch -- camera -- photographic and cinematographic equipment,1510,1430,..,..,409270,1.8,1.38
+,,r134,holidays -- hotels,13120,5430,5.2,1.8,409270,1.8,1.38
+,,r135,other spare time,6690,1470,2.8,0.6,409270,1.8,1.38
+,,r136,entertainment,1140,610,0.4,0.2,409270,1.8,1.38
+,,r137,books -- newspapers -- television taxes,8530,1290,3.7,0.5,409270,1.8,1.38
+,,r138,mobiltelephone (callcharge and subscription fee),2440,740,1.0,0.3,409270,1.8,1.38
+,,r139,telephone (callcharge and subscription fee),2920,330,1.3,0.1,409270,1.8,1.38
+D6,decil 6,r001,total expenditures,283880,15520,100.0,0.0,414740,2.3,1.65
+,,r002,food,33120,2580,12.4,1.0,414740,2.3,1.65
+,,r003,bread and cereals,5410,580,2.1,0.2,414740,2.3,1.65
+,,r004,rice and products of rice -- of which:,270,70,..,..,414740,2.3,1.65
+,,r005,rice,120,40,..,..,414740,2.3,1.65
+,,r006,products of rice,160,60,..,..,414740,2.3,1.65
+,,r007,pasta products,390,80,..,..,414740,2.3,1.65
+,,r008,flour -- grain,730,140,0.3,0.1,414740,2.3,1.65
+,,r009,bread -- of which:,2290,270,0.9,0.1,414740,2.3,1.65
+,,r010,hard bread,330,100,..,..,414740,2.3,1.65
+,,r011,soft white bread,600,110,..,..,414740,2.3,1.65
+,,r012,soft brown bread,360,80,..,..,414740,2.3,1.65
+,,r013,soft light bread,560,140,0.2,0.1,414740,2.3,1.65
+,,r014,bread unspecified,450,120,..,..,414740,2.3,1.65
+,,r015,pastry-cook products,1730,360,0.7,0.1,414740,2.3,1.65
+,,r016,meat,6800,760,2.5,0.3,414740,2.3,1.65
+,,r017,fresh -- chilled or frozen meat of bovine animals,800,230,0.3,0.1,414740,2.3,1.65
+,,r018,fresh -- chilled or frozen meat of pig,1170,240,0.4,0.1,414740,2.3,1.65
+,,r019,fresh -- chilled or frozen meat of sheep and goat,290,170,..,..,414740,2.3,1.65
+,,r020,fresh -- chilled or frozen meat of poultry,890,220,0.3,0.1,414740,2.3,1.65
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,414740,2.3,1.65
+,,r022,dried -- salted or smoked meat of pig,1370,210,0.5,0.1,414740,2.3,1.65
+,,r023,dried -- salted or smoked other meats,230,80,..,..,414740,2.3,1.65
+,,r024,meat -- sausages and meat of sandwiches,1040,200,0.4,0.1,414740,2.3,1.65
+,,r025,pastry -- cured meats and provisions,330,90,..,..,414740,2.3,1.65
+,,r026,meatdishes,420,140,0.2,0.1,414740,2.3,1.65
+,,r027,meat - unspecified,250,180,..,..,414740,2.3,1.65
+,,r028,fish,2140,380,0.8,0.1,414740,2.3,1.65
+,,r029,fresh -- chilled or frozen fish -- of which:,960,210,0.3,0.1,414740,2.3,1.65
+,,r030,codfish,190,80,..,..,414740,2.3,1.65
+,,r031,salomonfish,390,150,..,..,414740,2.3,1.65
+,,r032,herring,..,..,..,..,414740,2.3,1.65
+,,r033,other fish,340,100,..,..,414740,2.3,1.65
+,,r034,seafood,340,150,..,..,414740,2.3,1.65
+,,r035,caviar -- roes -- other fishproducts,80,30,..,..,414740,2.3,1.65
+,,r036,fish and seafood dishes,740,180,0.3,0.1,414740,2.3,1.65
+,,r037,fish and seafood - unspecified,..,..,..,..,414740,2.3,1.65
+,,r038,milk -- cheese and eggs,5630,530,2.2,0.2,414740,2.3,1.65
+,,r039,milk (fat >=1 --5%),410,110,..,..,414740,2.3,1.65
+,,r040,low fat milk (fat <1 --5%),740,120,0.3,0.1,414740,2.3,1.65
+,,r041,preserved milk,..,..,..,..,414740,2.3,1.65
+,,r042,yoghurt and sour milk,880,150,0.3,0.1,414740,2.3,1.65
+,,r043,cream -- sour cream (fat>=29%),310,60,..,..,414740,2.3,1.65
+,,r044,cream -- sour cream (fat<29%),390,80,..,..,414740,2.3,1.65
+,,r045,cheese (fat >=17%),1510,330,0.6,0.1,414740,2.3,1.65
+,,r046,cheese (fat <17%),810,150,0.3,0.1,414740,2.3,1.65
+,,r047,eggs,540,90,..,..,414740,2.3,1.65
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,414740,2.3,1.65
+,,r049,oils and fats,990,240,0.4,0.1,414740,2.3,1.65
+,,r050,butter,360,100,..,..,414740,2.3,1.65
+,,r051,margarine (fat>=40%),270,50,..,..,414740,2.3,1.65
+,,r052,margarine (fat<40%),90,30,..,..,414740,2.3,1.65
+,,r053,olive oil -- cooking oil -- mayonnaise,270,160,..,..,414740,2.3,1.65
+,,r054,fruit and berries,2690,370,1.0,0.1,414740,2.3,1.65
+,,r055,apples,360,80,..,..,414740,2.3,1.65
+,,r056,pears,100,30,..,..,414740,2.3,1.65
+,,r057,bananas,370,70,..,..,414740,2.3,1.65
+,,r058,citrus fruits,430,100,..,..,414740,2.3,1.65
+,,r059,other fresh fruit,320,100,..,..,414740,2.3,1.65
+,,r060,dried fruit,460,110,..,..,414740,2.3,1.65
+,,r061,berries,490,130,..,..,414740,2.3,1.65
+,,r062,preserved fruit and fruit based products,110,40,..,..,414740,2.3,1.65
+,,r063,others fruit and berries,40,30,..,..,414740,2.3,1.65
+,,r064,vegetables,3810,440,1.4,0.2,414740,2.3,1.65
+,,r065,leaf and stem vegetables,400,90,..,..,414740,2.3,1.65
+,,r066,cabbages -- fresh,160,50,..,..,414740,2.3,1.65
+,,r067,vegetables cultivated for their fruit -- fresh ,1260,180,0.5,0.1,414740,2.3,1.65
+,,r068,onion -- leek -- fresh,210,40,..,..,414740,2.3,1.65
+,,r069,mashrooms -- fresh,60,30,..,..,414740,2.3,1.65
+,,r070,soups -- vegetabledishes,660,150,0.2,0.1,414740,2.3,1.65
+,,r071,root crops,230,50,..,..,414740,2.3,1.65
+,,r072,potatoes,460,90,..,..,414740,2.3,1.65
+,,r073,products of potatoes (french fries -- mashed potatoes),340,100,..,..,414740,2.3,1.65
+,,r074,vegetables - unspecified,40,20,..,..,414740,2.3,1.65
+,,r075,sugar and sweets,3230,400,1.2,0.1,414740,2.3,1.65
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,290,70,..,..,414740,2.3,1.65
+,,r077,jams -- marmelade,210,50,..,..,414740,2.3,1.65
+,,r078,ice cream,730,230,0.3,0.1,414740,2.3,1.65
+,,r079,other suger products,2000,270,0.7,0.1,414740,2.3,1.65
+,,r080,sauces -- condiments,540,110,..,..,414740,2.3,1.65
+,,r081,salt -- spices and culinary herbs,430,120,..,..,414740,2.3,1.65
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,350,90,..,..,414740,2.3,1.65
+,,r083,snacks,370,80,..,..,414740,2.3,1.65
+,,r084,unspec provisions,710,360,0.3,0.1,414740,2.3,1.65
+,,r085,non alcoholic beverages,2770,360,1.1,0.2,414740,2.3,1.65
+,,r086,fruit- and vegetable juices,470,120,0.2,0.1,414740,2.3,1.65
+,,r087,soft drinks,1210,230,0.5,0.1,414740,2.3,1.65
+,,r088,mineral or spring waters,210,90,..,..,414740,2.3,1.65
+,,r089,coffee,650,130,..,..,414740,2.3,1.65
+,,r090,tee,210,110,..,..,414740,2.3,1.65
+,,r091,cacao,..,..,..,..,414740,2.3,1.65
+,,r092,dinner out,9570,3080,3.1,0.8,414740,2.3,1.65
+,,r093,alcoholic beverages (with low-strength beer),3320,940,1.2,0.3,414740,2.3,1.65
+,,r094,tobacco ,2700,920,0.9,0.3,414740,2.3,1.65
+,,r095,consumer goods,5770,1030,2.0,0.3,414740,2.3,1.65
+,,r096,personal hygiene,3370,710,1.2,0.2,414740,2.3,1.65
+,,r097,other consumption purposes,2400,690,0.9,0.2,414740,2.3,1.65
+,,r098,domestic services,12050,2840,3.9,0.8,414740,2.3,1.65
+,,r099,childminding,1360,430,0.5,0.1,414740,2.3,1.65
+,,r100,charge of skill -- other insurance,1730,590,0.6,0.2,414740,2.3,1.65
+,,r101,other services,8970,2710,2.9,0.8,414740,2.3,1.65
+,,r102,clothing and footwear,12910,3370,4.1,1.0,414740,2.3,1.65
+,,r103,clothing,10980,3140,3.5,0.9,414740,2.3,1.65
+,,r104, outdoor clothes,2310,1020,0.7,0.3,414740,2.3,1.65
+,,r105,other clothes,6960,2820,2.1,0.7,414740,2.3,1.65
+,,r106,underwear,920,280,0.3,0.1,414740,2.3,1.65
+,,r107,accessoarer -- hats -- caps -- gloves etc.,340,180,..,..,414740,2.3,1.65
+,,r108,footwear,1920,850,0.7,0.3,414740,2.3,1.65
+,,r109,housing,76600,6080,28.9,2.0,414740,2.3,1.65
+,,r110,actual rentals for housing (incl. garage),33840,4990,13.5,2.0,414740,2.3,1.65
+,,r111,reparations,6270,2450,1.9,0.7,414740,2.3,1.65
+,,r112,householder´s comprehensive insurance,1830,230,0.7,0.1,414740,2.3,1.65
+,,r113,services associates with housing ,4170,980,1.6,0.4,414740,2.3,1.65
+,,r114,electicity -- gas and other fuels ,10470,1360,3.9,0.6,414740,2.3,1.65
+,,r115,interests (gross),17150,4060,6.1,1.3,414740,2.3,1.65
+,,r116,furnishings -- household equipment and routine maintenance of the house,14690,3870,4.8,0.9,414740,2.3,1.65
+,,r117,furniture and furnishings -- carpets and other floor coverings,7540,3340,2.3,0.7,414740,2.3,1.65
+,,r118,textile,780,410,0.3,0.2,414740,2.3,1.65
+,,r119,household applience,6370,1380,2.2,0.5,414740,2.3,1.65
+,,r120,health and hospital services,7110,2240,2.3,0.6,414740,2.3,1.65
+,,r121,transport,52090,8570,16.8,2.1,414740,2.3,1.65
+,,r122,purchase of new motor-cars,13420,6380,3.9,1.8,414740,2.3,1.65
+,,r123,purchase of other vehicles,1890,1490,..,..,414740,2.3,1.65
+,,r124,operation of motor-cars,30190,5560,9.9,1.2,414740,2.3,1.65
+,,r125,interests (motorcars - gross) -- licence duty,2010,340,0.8,0.1,414740,2.3,1.65
+,,r126,operation of other vehicles,510,380,0.2,0.1,414740,2.3,1.65
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),..,..,..,..,414740,2.3,1.65
+,,r128,services of transport,4000,1180,1.5,0.5,414740,2.3,1.65
+,,r129,leisure time and culture,49290,5350,17.7,1.6,414740,2.3,1.65
+,,r130,weekend cottage,2260,1070,0.9,0.5,414740,2.3,1.65
+,,r131,radio and tv,3720,910,1.4,0.3,414740,2.3,1.65
+,,r132,sport and hobby,5300,2450,1.7,0.7,414740,2.3,1.65
+,,r133,watch -- camera -- photographic and cinematographic equipment,2640,2460,0.7,0.6,414740,2.3,1.65
+,,r134,holidays -- hotels,10910,2190,3.9,0.8,414740,2.3,1.65
+,,r135,other spare time,6900,1540,2.6,0.5,414740,2.3,1.65
+,,r136,entertainment,1510,710,0.5,0.3,414740,2.3,1.65
+,,r137,books -- newspapers -- television taxes,9640,1410,3.5,0.6,414740,2.3,1.65
+,,r138,mobiltelephone (callcharge and subscription fee),3060,540,1.2,0.2,414740,2.3,1.65
+,,r139,telephone (callcharge and subscription fee),3340,320,1.3,0.1,414740,2.3,1.65
+D7,decil 7,r001,total expenditures,336180,18300,100.0,0.0,404670,2.5,1.77
+,,r002,food,39730,2440,12.9,0.9,404670,2.5,1.77
+,,r003,bread and cereals,6460,600,2.1,0.2,404670,2.5,1.77
+,,r004,rice and products of rice -- of which:,230,60,..,..,404670,2.5,1.77
+,,r005,rice,90,40,..,..,404670,2.5,1.77
+,,r006,products of rice,140,50,..,..,404670,2.5,1.77
+,,r007,pasta products,400,80,..,..,404670,2.5,1.77
+,,r008,flour -- grain,980,270,0.3,0.1,404670,2.5,1.77
+,,r009,bread -- of which:,2750,300,0.9,0.1,404670,2.5,1.77
+,,r010,hard bread,360,70,..,..,404670,2.5,1.77
+,,r011,soft white bread,610,100,..,..,404670,2.5,1.77
+,,r012,soft brown bread,430,90,..,..,404670,2.5,1.77
+,,r013,soft light bread,740,110,..,..,404670,2.5,1.77
+,,r014,bread unspecified,610,210,0.2,0.1,404670,2.5,1.77
+,,r015,pastry-cook products,2090,380,0.7,0.1,404670,2.5,1.77
+,,r016,meat,7880,790,2.6,0.3,404670,2.5,1.77
+,,r017,fresh -- chilled or frozen meat of bovine animals,1080,280,0.4,0.1,404670,2.5,1.77
+,,r018,fresh -- chilled or frozen meat of pig,1320,230,0.4,0.1,404670,2.5,1.77
+,,r019,fresh -- chilled or frozen meat of sheep and goat,270,200,..,..,404670,2.5,1.77
+,,r020,fresh -- chilled or frozen meat of poultry,880,190,0.3,0.1,404670,2.5,1.77
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,404670,2.5,1.77
+,,r022,dried -- salted or smoked meat of pig,1550,230,0.5,0.1,404670,2.5,1.77
+,,r023,dried -- salted or smoked other meats,310,120,..,..,404670,2.5,1.77
+,,r024,meat -- sausages and meat of sandwiches,1390,210,0.5,0.1,404670,2.5,1.77
+,,r025,pastry -- cured meats and provisions,440,110,..,..,404670,2.5,1.77
+,,r026,meatdishes,510,170,..,..,404670,2.5,1.77
+,,r027,meat - unspecified,100,70,..,..,404670,2.5,1.77
+,,r028,fish,2610,490,0.8,0.2,404670,2.5,1.77
+,,r029,fresh -- chilled or frozen fish -- of which:,830,180,0.3,0.1,404670,2.5,1.77
+,,r030,codfish,180,80,..,..,404670,2.5,1.77
+,,r031,salomonfish,350,110,..,..,404670,2.5,1.77
+,,r032,herring,30,20,..,..,404670,2.5,1.77
+,,r033,other fish,190,90,..,..,404670,2.5,1.77
+,,r034,seafood,570,320,0.2,0.1,404670,2.5,1.77
+,,r035,caviar -- roes -- other fishproducts,190,50,..,..,404670,2.5,1.77
+,,r036,fish and seafood dishes,1020,240,0.3,0.1,404670,2.5,1.77
+,,r037,fish and seafood - unspecified,80,50,..,..,404670,2.5,1.77
+,,r038,milk -- cheese and eggs,6350,490,2.0,0.2,404670,2.5,1.77
+,,r039,milk (fat >=1 --5%),420,100,..,..,404670,2.5,1.77
+,,r040,low fat milk (fat <1 --5%),890,130,..,..,404670,2.5,1.77
+,,r041,preserved milk,60,50,..,..,404670,2.5,1.77
+,,r042,yoghurt and sour milk,990,130,..,..,404670,2.5,1.77
+,,r043,cream -- sour cream (fat>=29%),400,80,..,..,404670,2.5,1.77
+,,r044,cream -- sour cream (fat<29%),410,70,..,..,404670,2.5,1.77
+,,r045,cheese (fat >=17%),1680,230,0.5,0.1,404670,2.5,1.77
+,,r046,cheese (fat <17%),900,150,..,..,404670,2.5,1.77
+,,r047,eggs,590,80,..,..,404670,2.5,1.77
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,404670,2.5,1.77
+,,r049,oils and fats,1190,200,0.4,0.1,404670,2.5,1.77
+,,r050,butter,460,90,..,..,404670,2.5,1.77
+,,r051,margarine (fat>=40%),260,60,..,..,404670,2.5,1.77
+,,r052,margarine (fat<40%),110,30,..,..,404670,2.5,1.77
+,,r053,olive oil -- cooking oil -- mayonnaise,350,120,..,..,404670,2.5,1.77
+,,r054,fruit and berries,3370,380,1.1,0.1,404670,2.5,1.77
+,,r055,apples,420,80,..,..,404670,2.5,1.77
+,,r056,pears,170,60,..,..,404670,2.5,1.77
+,,r057,bananas,520,80,..,..,404670,2.5,1.77
+,,r058,citrus fruits,510,100,..,..,404670,2.5,1.77
+,,r059,other fresh fruit,350,80,..,..,404670,2.5,1.77
+,,r060,dried fruit,590,140,..,..,404670,2.5,1.77
+,,r061,berries,580,140,0.2,0.1,404670,2.5,1.77
+,,r062,preserved fruit and fruit based products,120,50,..,..,404670,2.5,1.77
+,,r063,others fruit and berries,90,60,..,..,404670,2.5,1.77
+,,r064,vegetables,4750,430,1.6,0.2,404670,2.5,1.77
+,,r065,leaf and stem vegetables,520,100,..,..,404670,2.5,1.77
+,,r066,cabbages -- fresh,190,50,..,..,404670,2.5,1.77
+,,r067,vegetables cultivated for their fruit -- fresh ,1570,180,0.5,0.1,404670,2.5,1.77
+,,r068,onion -- leek -- fresh,240,40,..,..,404670,2.5,1.77
+,,r069,mashrooms -- fresh,90,30,..,..,404670,2.5,1.77
+,,r070,soups -- vegetabledishes,790,140,0.3,0.1,404670,2.5,1.77
+,,r071,root crops,300,60,..,..,404670,2.5,1.77
+,,r072,potatoes,490,80,..,..,404670,2.5,1.77
+,,r073,products of potatoes (french fries -- mashed potatoes),410,90,..,..,404670,2.5,1.77
+,,r074,vegetables - unspecified,150,140,..,..,404670,2.5,1.77
+,,r075,sugar and sweets,3620,370,1.2,0.1,404670,2.5,1.77
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,240,70,..,..,404670,2.5,1.77
+,,r077,jams -- marmelade,150,40,..,..,404670,2.5,1.77
+,,r078,ice cream,740,150,..,..,404670,2.5,1.77
+,,r079,other suger products,2480,310,0.8,0.1,404670,2.5,1.77
+,,r080,sauces -- condiments,620,100,..,..,404670,2.5,1.77
+,,r081,salt -- spices and culinary herbs,400,70,..,..,404670,2.5,1.77
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,340,80,..,..,404670,2.5,1.77
+,,r083,snacks,470,100,..,..,404670,2.5,1.77
+,,r084,unspec provisions,1680,860,0.5,0.3,404670,2.5,1.77
+,,r085,non alcoholic beverages,3100,350,1.0,0.1,404670,2.5,1.77
+,,r086,fruit- and vegetable juices,550,100,..,..,404670,2.5,1.77
+,,r087,soft drinks,1300,210,0.4,0.1,404670,2.5,1.77
+,,r088,mineral or spring waters,250,80,..,..,404670,2.5,1.77
+,,r089,coffee,780,160,0.3,0.1,404670,2.5,1.77
+,,r090,tee,190,100,..,..,404670,2.5,1.77
+,,r091,cacao,30,10,..,..,404670,2.5,1.77
+,,r092,dinner out,12040,1970,3.6,0.6,404670,2.5,1.77
+,,r093,alcoholic beverages (with low-strength beer),4130,800,1.3,0.3,404670,2.5,1.77
+,,r094,tobacco ,2570,690,0.8,0.2,404670,2.5,1.77
+,,r095,consumer goods,6580,950,2.0,0.3,404670,2.5,1.77
+,,r096,personal hygiene,4130,760,1.2,0.2,404670,2.5,1.77
+,,r097,other consumption purposes,2450,380,0.7,0.1,404670,2.5,1.77
+,,r098,domestic services,12110,2570,3.2,0.6,404670,2.5,1.77
+,,r099,childminding,2290,540,0.7,0.2,404670,2.5,1.77
+,,r100,charge of skill -- other insurance,2330,740,0.7,0.2,404670,2.5,1.77
+,,r101,other services,7500,2280,1.9,0.5,404670,2.5,1.77
+,,r102,clothing and footwear,14920,2840,4.3,0.8,404670,2.5,1.77
+,,r103,clothing,12410,2740,3.4,0.7,404670,2.5,1.77
+,,r104, outdoor clothes,2680,1740,0.7,0.4,404670,2.5,1.77
+,,r105,other clothes,7240,1840,2.1,0.5,404670,2.5,1.77
+,,r106,underwear,1290,330,0.4,0.1,404670,2.5,1.77
+,,r107,accessoarer -- hats -- caps -- gloves etc.,560,420,0.2,0.1,404670,2.5,1.77
+,,r108,footwear,2400,810,0.8,0.5,404670,2.5,1.77
+,,r109,housing,76490,4440,24.9,1.6,404670,2.5,1.77
+,,r110,actual rentals for housing (incl. garage),27160,4230,9.2,1.6,404670,2.5,1.77
+,,r111,reparations,7530,2400,2.2,0.7,404670,2.5,1.77
+,,r112,householder´s comprehensive insurance,2260,220,0.8,0.1,404670,2.5,1.77
+,,r113,services associates with housing ,5210,1020,1.8,0.4,404670,2.5,1.77
+,,r114,electicity -- gas and other fuels ,12940,1720,4.4,0.8,404670,2.5,1.77
+,,r115,interests (gross),17810,2940,5.3,0.8,404670,2.5,1.77
+,,r116,furnishings -- household equipment and routine maintenance of the house,25370,8720,6.4,1.2,404670,2.5,1.77
+,,r117,furniture and furnishings -- carpets and other floor coverings,9060,2490,2.5,0.5,404670,2.5,1.77
+,,r118,textile,1340,490,0.4,0.2,404670,2.5,1.77
+,,r119,household applience,14960,8100,3.5,1.1,404670,2.5,1.77
+,,r120,health and hospital services,9870,3730,2.9,1.0,404670,2.5,1.77
+,,r121,transport,65240,10390,17.2,2.0,404670,2.5,1.77
+,,r122,purchase of new motor-cars,20450,8290,4.3,1.7,404670,2.5,1.77
+,,r123,purchase of other vehicles,3960,2130,1.0,0.5,404670,2.5,1.77
+,,r124,operation of motor-cars,31980,5260,9.3,1.1,404670,2.5,1.77
+,,r125,interests (motorcars - gross) -- licence duty,2700,590,0.8,0.2,404670,2.5,1.77
+,,r126,operation of other vehicles,1620,760,0.5,0.2,404670,2.5,1.77
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),..,..,..,..,404670,2.5,1.77
+,,r128,services of transport,4430,1700,1.3,0.5,404670,2.5,1.77
+,,r129,leisure time and culture,59370,5650,18.3,1.4,404670,2.5,1.77
+,,r130,weekend cottage,3030,1090,1.0,0.4,404670,2.5,1.77
+,,r131,radio and tv,3880,810,1.3,0.3,404670,2.5,1.77
+,,r132,sport and hobby,5120,1530,1.3,0.4,404670,2.5,1.77
+,,r133,watch -- camera -- photographic and cinematographic equipment,1670,740,0.5,0.2,404670,2.5,1.77
+,,r134,holidays -- hotels,17980,4290,5.4,1.2,404670,2.5,1.77
+,,r135,other spare time,9480,1790,3.0,0.5,404670,2.5,1.77
+,,r136,entertainment,1460,540,0.4,0.2,404670,2.5,1.77
+,,r137,books -- newspapers -- television taxes,10260,920,3.3,0.3,404670,2.5,1.77
+,,r138,mobiltelephone (callcharge and subscription fee),2940,460,1.0,0.2,404670,2.5,1.77
+,,r139,telephone (callcharge and subscription fee),3560,380,1.2,0.2,404670,2.5,1.77
+D8,decil 8,r001,total expenditures,368920,19160,100.0,0.0,407040,3.0,1.99
+,,r002,food,46180,2750,13.7,1.0,407040,3.0,1.99
+,,r003,bread and cereals,7830,610,2.3,0.2,407040,3.0,1.99
+,,r004,rice and products of rice -- of which:,340,70,..,..,407040,3.0,1.99
+,,r005,rice,170,60,..,..,407040,3.0,1.99
+,,r006,products of rice,170,50,..,..,407040,3.0,1.99
+,,r007,pasta products,600,100,..,..,407040,3.0,1.99
+,,r008,flour -- grain,1040,170,..,..,407040,3.0,1.99
+,,r009,bread -- of which:,3320,250,1.0,0.1,407040,3.0,1.99
+,,r010,hard bread,420,70,..,..,407040,3.0,1.99
+,,r011,soft white bread,860,110,..,..,407040,3.0,1.99
+,,r012,soft brown bread,570,90,..,..,407040,3.0,1.99
+,,r013,soft light bread,860,120,..,..,407040,3.0,1.99
+,,r014,bread unspecified,610,110,..,..,407040,3.0,1.99
+,,r015,pastry-cook products,2530,450,0.8,0.2,407040,3.0,1.99
+,,r016,meat,9070,810,2.7,0.3,407040,3.0,1.99
+,,r017,fresh -- chilled or frozen meat of bovine animals,1330,270,0.4,0.1,407040,3.0,1.99
+,,r018,fresh -- chilled or frozen meat of pig,1640,250,0.5,0.1,407040,3.0,1.99
+,,r019,fresh -- chilled or frozen meat of sheep and goat,140,60,..,..,407040,3.0,1.99
+,,r020,fresh -- chilled or frozen meat of poultry,1230,270,0.3,0.1,407040,3.0,1.99
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,407040,3.0,1.99
+,,r022,dried -- salted or smoked meat of pig,1780,240,0.5,0.1,407040,3.0,1.99
+,,r023,dried -- salted or smoked other meats,360,100,..,..,407040,3.0,1.99
+,,r024,meat -- sausages and meat of sandwiches,1350,180,0.4,0.1,407040,3.0,1.99
+,,r025,pastry -- cured meats and provisions,500,230,..,..,407040,3.0,1.99
+,,r026,meatdishes,490,140,..,..,407040,3.0,1.99
+,,r027,meat - unspecified,210,200,..,..,407040,3.0,1.99
+,,r028,fish,2520,360,0.8,0.1,407040,3.0,1.99
+,,r029,fresh -- chilled or frozen fish -- of which:,1050,250,0.3,0.1,407040,3.0,1.99
+,,r030,codfish,230,70,..,..,407040,3.0,1.99
+,,r031,salomonfish,600,190,0.2,0.1,407040,3.0,1.99
+,,r032,herring,30,20,..,..,407040,3.0,1.99
+,,r033,other fish,160,70,..,..,407040,3.0,1.99
+,,r034,seafood,410,110,..,..,407040,3.0,1.99
+,,r035,caviar -- roes -- other fishproducts,170,40,..,..,407040,3.0,1.99
+,,r036,fish and seafood dishes,890,160,0.3,0.1,407040,3.0,1.99
+,,r037,fish and seafood - unspecified,..,..,..,..,407040,3.0,1.99
+,,r038,milk -- cheese and eggs,7900,570,2.4,0.2,407040,3.0,1.99
+,,r039,milk (fat >=1 --5%),400,80,..,..,407040,3.0,1.99
+,,r040,low fat milk (fat <1 --5%),1400,220,0.4,0.1,407040,3.0,1.99
+,,r041,preserved milk,50,20,..,..,407040,3.0,1.99
+,,r042,yoghurt and sour milk,1280,130,0.4,0.1,407040,3.0,1.99
+,,r043,cream -- sour cream (fat>=29%),410,60,..,..,407040,3.0,1.99
+,,r044,cream -- sour cream (fat<29%),530,80,..,..,407040,3.0,1.99
+,,r045,cheese (fat >=17%),2030,250,0.6,0.1,407040,3.0,1.99
+,,r046,cheese (fat <17%),1110,150,..,..,407040,3.0,1.99
+,,r047,eggs,670,100,..,..,407040,3.0,1.99
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,407040,3.0,1.99
+,,r049,oils and fats,1250,140,..,..,407040,3.0,1.99
+,,r050,butter,570,100,..,..,407040,3.0,1.99
+,,r051,margarine (fat>=40%),260,50,..,..,407040,3.0,1.99
+,,r052,margarine (fat<40%),110,30,..,..,407040,3.0,1.99
+,,r053,olive oil -- cooking oil -- mayonnaise,300,70,..,..,407040,3.0,1.99
+,,r054,fruit and berries,4030,370,1.2,0.2,407040,3.0,1.99
+,,r055,apples,560,90,..,..,407040,3.0,1.99
+,,r056,pears,190,50,..,..,407040,3.0,1.99
+,,r057,bananas,670,90,..,..,407040,3.0,1.99
+,,r058,citrus fruits,640,100,..,..,407040,3.0,1.99
+,,r059,other fresh fruit,440,110,..,..,407040,3.0,1.99
+,,r060,dried fruit,740,160,0.3,0.1,407040,3.0,1.99
+,,r061,berries,540,130,..,..,407040,3.0,1.99
+,,r062,preserved fruit and fruit based products,170,50,..,..,407040,3.0,1.99
+,,r063,others fruit and berries,80,40,..,..,407040,3.0,1.99
+,,r064,vegetables,5190,450,1.5,0.1,407040,3.0,1.99
+,,r065,leaf and stem vegetables,630,90,..,..,407040,3.0,1.99
+,,r066,cabbages -- fresh,200,40,..,..,407040,3.0,1.99
+,,r067,vegetables cultivated for their fruit -- fresh ,1690,180,0.5,0.1,407040,3.0,1.99
+,,r068,onion -- leek -- fresh,290,50,..,..,407040,3.0,1.99
+,,r069,mashrooms -- fresh,100,30,..,..,407040,3.0,1.99
+,,r070,soups -- vegetabledishes,840,130,..,..,407040,3.0,1.99
+,,r071,root crops,310,50,..,..,407040,3.0,1.99
+,,r072,potatoes,580,90,..,..,407040,3.0,1.99
+,,r073,products of potatoes (french fries -- mashed potatoes),470,90,..,..,407040,3.0,1.99
+,,r074,vegetables - unspecified,90,60,..,..,407040,3.0,1.99
+,,r075,sugar and sweets,4360,430,1.2,0.1,407040,3.0,1.99
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,210,50,..,..,407040,3.0,1.99
+,,r077,jams -- marmelade,220,50,..,..,407040,3.0,1.99
+,,r078,ice cream,830,190,0.2,0.1,407040,3.0,1.99
+,,r079,other suger products,3090,320,0.9,0.1,407040,3.0,1.99
+,,r080,sauces -- condiments,850,120,..,..,407040,3.0,1.99
+,,r081,salt -- spices and culinary herbs,500,90,..,..,407040,3.0,1.99
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,330,70,..,..,407040,3.0,1.99
+,,r083,snacks,570,90,..,..,407040,3.0,1.99
+,,r084,unspec provisions,1740,680,0.5,0.2,407040,3.0,1.99
+,,r085,non alcoholic beverages,3510,350,1.0,0.1,407040,3.0,1.99
+,,r086,fruit- and vegetable juices,680,130,..,..,407040,3.0,1.99
+,,r087,soft drinks,1600,230,0.5,0.1,407040,3.0,1.99
+,,r088,mineral or spring waters,290,70,..,..,407040,3.0,1.99
+,,r089,coffee,710,140,..,..,407040,3.0,1.99
+,,r090,tee,190,60,..,..,407040,3.0,1.99
+,,r091,cacao,40,20,..,..,407040,3.0,1.99
+,,r092,dinner out,12360,1690,3.5,0.6,407040,3.0,1.99
+,,r093,alcoholic beverages (with low-strength beer),4740,1120,1.3,0.3,407040,3.0,1.99
+,,r094,tobacco ,2030,510,0.6,0.1,407040,3.0,1.99
+,,r095,consumer goods,7690,940,2.1,0.2,407040,3.0,1.99
+,,r096,personal hygiene,4150,680,1.1,0.2,407040,3.0,1.99
+,,r097,other consumption purposes,3540,650,1.0,0.2,407040,3.0,1.99
+,,r098,domestic services,13420,2090,3.5,0.5,407040,3.0,1.99
+,,r099,childminding,3450,640,0.9,0.2,407040,3.0,1.99
+,,r100,charge of skill -- other insurance,2600,540,0.7,0.1,407040,3.0,1.99
+,,r101,other services,7370,1890,2.0,0.5,407040,3.0,1.99
+,,r102,clothing and footwear,18200,2760,4.7,0.7,407040,3.0,1.99
+,,r103,clothing,14910,2450,3.8,0.6,407040,3.0,1.99
+,,r104, outdoor clothes,3330,1110,0.8,0.3,407040,3.0,1.99
+,,r105,other clothes,8600,1760,2.3,0.5,407040,3.0,1.99
+,,r106,underwear,1370,330,0.3,0.1,407040,3.0,1.99
+,,r107,accessoarer -- hats -- caps -- gloves etc.,550,240,..,..,407040,3.0,1.99
+,,r108,footwear,3290,970,0.9,0.3,407040,3.0,1.99
+,,r109,housing,84000,6240,24.1,1.3,407040,3.0,1.99
+,,r110,actual rentals for housing (incl. garage),20670,3940,6.9,1.5,407040,3.0,1.99
+,,r111,reparations,7370,3880,1.5,0.5,407040,3.0,1.99
+,,r112,householder´s comprehensive insurance,2550,200,0.8,0.1,407040,3.0,1.99
+,,r113,services associates with housing ,6560,840,1.9,0.3,407040,3.0,1.99
+,,r114,electicity -- gas and other fuels ,14140,1280,4.2,0.4,407040,3.0,1.99
+,,r115,interests (gross),27940,3970,7.4,1.0,407040,3.0,1.99
+,,r116,furnishings -- household equipment and routine maintenance of the house,22810,4070,6.4,1.0,407040,3.0,1.99
+,,r117,furniture and furnishings -- carpets and other floor coverings,9260,1880,2.7,0.6,407040,3.0,1.99
+,,r118,textile,1720,610,0.5,0.2,407040,3.0,1.99
+,,r119,household applience,11830,3340,3.2,0.8,407040,3.0,1.99
+,,r120,health and hospital services,7940,1770,2.1,0.4,407040,3.0,1.99
+,,r121,transport,74120,11770,17.5,1.9,407040,3.0,1.99
+,,r122,purchase of new motor-cars,26030,8120,4.9,1.7,407040,3.0,1.99
+,,r123,purchase of other vehicles,3060,1660,0.8,0.6,407040,3.0,1.99
+,,r124,operation of motor-cars,36080,7820,9.2,1.0,407040,3.0,1.99
+,,r125,interests (motorcars - gross) -- licence duty,3200,750,0.9,0.2,407040,3.0,1.99
+,,r126,operation of other vehicles,1190,410,0.3,0.1,407040,3.0,1.99
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),100,70,..,..,407040,3.0,1.99
+,,r128,services of transport,4450,960,1.3,0.3,407040,3.0,1.99
+,,r129,leisure time and culture,65380,5290,18.0,1.2,407040,3.0,1.99
+,,r130,weekend cottage,4420,1600,1.3,0.5,407040,3.0,1.99
+,,r131,radio and tv,4940,880,1.5,0.3,407040,3.0,1.99
+,,r132,sport and hobby,8200,2070,2.0,0.5,407040,3.0,1.99
+,,r133,watch -- camera -- photographic and cinematographic equipment,2090,800,0.6,0.2,407040,3.0,1.99
+,,r134,holidays -- hotels,15410,2650,4.0,0.6,407040,3.0,1.99
+,,r135,other spare time,10750,2090,2.9,0.5,407040,3.0,1.99
+,,r136,entertainment,2150,720,0.5,0.2,407040,3.0,1.99
+,,r137,books -- newspapers -- television taxes,10870,900,3.2,0.3,407040,3.0,1.99
+,,r138,mobiltelephone (callcharge and subscription fee),2840,440,0.8,0.1,407040,3.0,1.99
+,,r139,telephone (callcharge and subscription fee),3720,300,1.2,0.1,407040,3.0,1.99
+D9,decil 9,r001,total expenditures,412120,18300,100.0,0.0,409900,3.1,2.06
+,,r002,food,48950,2500,12.9,0.8,409900,3.1,2.06
+,,r003,bread and cereals,8290,640,2.2,0.2,409900,3.1,2.06
+,,r004,rice and products of rice -- of which:,400,90,..,..,409900,3.1,2.06
+,,r005,rice,230,80,..,..,409900,3.1,2.06
+,,r006,products of rice,170,40,..,..,409900,3.1,2.06
+,,r007,pasta products,600,90,..,..,409900,3.1,2.06
+,,r008,flour -- grain,1120,290,0.3,0.1,409900,3.1,2.06
+,,r009,bread -- of which:,3510,260,1.0,0.1,409900,3.1,2.06
+,,r010,hard bread,460,70,..,..,409900,3.1,2.06
+,,r011,soft white bread,860,110,..,..,409900,3.1,2.06
+,,r012,soft brown bread,700,100,..,..,409900,3.1,2.06
+,,r013,soft light bread,1000,120,..,..,409900,3.1,2.06
+,,r014,bread unspecified,490,90,..,..,409900,3.1,2.06
+,,r015,pastry-cook products,2650,340,0.7,0.1,409900,3.1,2.06
+,,r016,meat,9590,740,2.5,0.2,409900,3.1,2.06
+,,r017,fresh -- chilled or frozen meat of bovine animals,1330,240,0.4,0.1,409900,3.1,2.06
+,,r018,fresh -- chilled or frozen meat of pig,1820,240,0.5,0.1,409900,3.1,2.06
+,,r019,fresh -- chilled or frozen meat of sheep and goat,250,180,..,..,409900,3.1,2.06
+,,r020,fresh -- chilled or frozen meat of poultry,1180,200,0.3,0.1,409900,3.1,2.06
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,409900,3.1,2.06
+,,r022,dried -- salted or smoked meat of pig,2250,290,0.6,0.1,409900,3.1,2.06
+,,r023,dried -- salted or smoked other meats,290,60,..,..,409900,3.1,2.06
+,,r024,meat -- sausages and meat of sandwiches,1450,170,..,..,409900,3.1,2.06
+,,r025,pastry -- cured meats and provisions,360,70,..,..,409900,3.1,2.06
+,,r026,meatdishes,500,150,..,..,409900,3.1,2.06
+,,r027,meat - unspecified,140,90,..,..,409900,3.1,2.06
+,,r028,fish,2800,400,0.8,0.1,409900,3.1,2.06
+,,r029,fresh -- chilled or frozen fish -- of which:,950,190,0.3,0.1,409900,3.1,2.06
+,,r030,codfish,190,60,..,..,409900,3.1,2.06
+,,r031,salomonfish,520,150,..,..,409900,3.1,2.06
+,,r032,herring,..,..,..,..,409900,3.1,2.06
+,,r033,other fish,190,70,..,..,409900,3.1,2.06
+,,r034,seafood,480,180,..,..,409900,3.1,2.06
+,,r035,caviar -- roes -- other fishproducts,340,140,..,..,409900,3.1,2.06
+,,r036,fish and seafood dishes,1030,180,..,..,409900,3.1,2.06
+,,r037,fish and seafood - unspecified,..,..,..,..,409900,3.1,2.06
+,,r038,milk -- cheese and eggs,8000,490,2.1,0.2,409900,3.1,2.06
+,,r039,milk (fat >=1 --5%),400,80,..,..,409900,3.1,2.06
+,,r040,low fat milk (fat <1 --5%),1420,150,..,..,409900,3.1,2.06
+,,r041,preserved milk,60,20,..,..,409900,3.1,2.06
+,,r042,yoghurt and sour milk,1330,140,..,..,409900,3.1,2.06
+,,r043,cream -- sour cream (fat>=29%),440,60,..,..,409900,3.1,2.06
+,,r044,cream -- sour cream (fat<29%),510,70,..,..,409900,3.1,2.06
+,,r045,cheese (fat >=17%),2050,210,0.5,0.1,409900,3.1,2.06
+,,r046,cheese (fat <17%),1130,170,0.3,0.1,409900,3.1,2.06
+,,r047,eggs,660,80,..,..,409900,3.1,2.06
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,409900,3.1,2.06
+,,r049,oils and fats,1230,160,..,..,409900,3.1,2.06
+,,r050,butter,470,70,..,..,409900,3.1,2.06
+,,r051,margarine (fat>=40%),320,50,..,..,409900,3.1,2.06
+,,r052,margarine (fat<40%),110,30,..,..,409900,3.1,2.06
+,,r053,olive oil -- cooking oil -- mayonnaise,330,120,..,..,409900,3.1,2.06
+,,r054,fruit and berries,4350,380,1.2,0.1,409900,3.1,2.06
+,,r055,apples,570,80,..,..,409900,3.1,2.06
+,,r056,pears,160,40,..,..,409900,3.1,2.06
+,,r057,bananas,730,100,..,..,409900,3.1,2.06
+,,r058,citrus fruits,740,100,..,..,409900,3.1,2.06
+,,r059,other fresh fruit,480,100,..,..,409900,3.1,2.06
+,,r060,dried fruit,770,130,0.2,0.1,409900,3.1,2.06
+,,r061,berries,640,130,..,..,409900,3.1,2.06
+,,r062,preserved fruit and fruit based products,150,50,..,..,409900,3.1,2.06
+,,r063,others fruit and berries,120,60,..,..,409900,3.1,2.06
+,,r064,vegetables,5290,350,1.4,0.1,409900,3.1,2.06
+,,r065,leaf and stem vegetables,670,70,..,..,409900,3.1,2.06
+,,r066,cabbages -- fresh,180,40,..,..,409900,3.1,2.06
+,,r067,vegetables cultivated for their fruit -- fresh ,1780,140,..,..,409900,3.1,2.06
+,,r068,onion -- leek -- fresh,290,40,..,..,409900,3.1,2.06
+,,r069,mashrooms -- fresh,70,20,..,..,409900,3.1,2.06
+,,r070,soups -- vegetabledishes,770,100,..,..,409900,3.1,2.06
+,,r071,root crops,310,50,..,..,409900,3.1,2.06
+,,r072,potatoes,620,70,..,..,409900,3.1,2.06
+,,r073,products of potatoes (french fries -- mashed potatoes),520,90,..,..,409900,3.1,2.06
+,,r074,vegetables - unspecified,90,70,..,..,409900,3.1,2.06
+,,r075,sugar and sweets,4290,360,1.1,0.1,409900,3.1,2.06
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,240,50,..,..,409900,3.1,2.06
+,,r077,jams -- marmelade,230,50,..,..,409900,3.1,2.06
+,,r078,ice cream,890,140,..,..,409900,3.1,2.06
+,,r079,other suger products,2940,280,0.7,0.1,409900,3.1,2.06
+,,r080,sauces -- condiments,800,90,..,..,409900,3.1,2.06
+,,r081,salt -- spices and culinary herbs,530,80,..,..,409900,3.1,2.06
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,370,70,..,..,409900,3.1,2.06
+,,r083,snacks,550,80,..,..,409900,3.1,2.06
+,,r084,unspec provisions,2850,1010,0.7,0.3,409900,3.1,2.06
+,,r085,non alcoholic beverages,3410,270,0.9,0.1,409900,3.1,2.06
+,,r086,fruit- and vegetable juices,680,100,..,..,409900,3.1,2.06
+,,r087,soft drinks,1380,180,..,..,409900,3.1,2.06
+,,r088,mineral or spring waters,250,50,..,..,409900,3.1,2.06
+,,r089,coffee,850,120,..,..,409900,3.1,2.06
+,,r090,tee,210,50,..,..,409900,3.1,2.06
+,,r091,cacao,40,20,..,..,409900,3.1,2.06
+,,r092,dinner out,14400,1790,3.5,0.4,409900,3.1,2.06
+,,r093,alcoholic beverages (with low-strength beer),5180,920,1.3,0.2,409900,3.1,2.06
+,,r094,tobacco ,2080,720,0.5,0.2,409900,3.1,2.06
+,,r095,consumer goods,9610,1020,2.3,0.2,409900,3.1,2.06
+,,r096,personal hygiene,5830,820,1.4,0.2,409900,3.1,2.06
+,,r097,other consumption purposes,3790,460,0.9,0.1,409900,3.1,2.06
+,,r098,domestic services,15920,2190,3.8,0.5,409900,3.1,2.06
+,,r099,childminding,3200,650,0.8,0.2,409900,3.1,2.06
+,,r100,charge of skill -- other insurance,2850,420,0.7,0.1,409900,3.1,2.06
+,,r101,other services,9870,2050,2.2,0.4,409900,3.1,2.06
+,,r102,clothing and footwear,20770,3030,4.8,0.7,409900,3.1,2.06
+,,r103,clothing,17330,2770,4.0,0.7,409900,3.1,2.06
+,,r104, outdoor clothes,4700,1800,1.1,0.4,409900,3.1,2.06
+,,r105,other clothes,9260,1690,2.1,0.4,409900,3.1,2.06
+,,r106,underwear,1940,400,0.5,0.1,409900,3.1,2.06
+,,r107,accessoarer -- hats -- caps -- gloves etc.,630,200,0.2,0.1,409900,3.1,2.06
+,,r108,footwear,3440,870,0.8,0.2,409900,3.1,2.06
+,,r109,housing,94290,5230,24.5,1.4,409900,3.1,2.06
+,,r110,actual rentals for housing (incl. garage),20420,3790,6.1,1.3,409900,3.1,2.06
+,,r111,reparations,9790,2790,2.2,0.6,409900,3.1,2.06
+,,r112,householder´s comprehensive insurance,2650,200,0.7,0.1,409900,3.1,2.06
+,,r113,services associates with housing ,6530,740,1.7,0.2,409900,3.1,2.06
+,,r114,electicity -- gas and other fuels ,14090,1200,3.7,0.4,409900,3.1,2.06
+,,r115,interests (gross),35000,4010,8.5,1.0,409900,3.1,2.06
+,,r116,furnishings -- household equipment and routine maintenance of the house,23460,3030,5.5,0.6,409900,3.1,2.06
+,,r117,furniture and furnishings -- carpets and other floor coverings,9690,1660,2.3,0.4,409900,3.1,2.06
+,,r118,textile,1980,610,0.5,0.2,409900,3.1,2.06
+,,r119,household applience,11790,2000,2.8,0.4,409900,3.1,2.06
+,,r120,health and hospital services,8030,1650,2.0,0.4,409900,3.1,2.06
+,,r121,transport,74350,8930,16.5,1.4,409900,3.1,2.06
+,,r122,purchase of new motor-cars,22090,6250,4.2,1.2,409900,3.1,2.06
+,,r123,purchase of other vehicles,5710,2180,1.2,0.4,409900,3.1,2.06
+,,r124,operation of motor-cars,35290,5830,8.4,0.9,409900,3.1,2.06
+,,r125,interests (motorcars - gross) -- licence duty,3680,940,0.9,0.2,409900,3.1,2.06
+,,r126,operation of other vehicles,2210,780,0.5,0.1,409900,3.1,2.06
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),140,80,..,..,409900,3.1,2.06
+,,r128,services of transport,5250,1410,1.3,0.3,409900,3.1,2.06
+,,r129,leisure time and culture,80440,6240,19.4,1.3,409900,3.1,2.06
+,,r130,weekend cottage,4980,1670,1.4,0.5,409900,3.1,2.06
+,,r131,radio and tv,4730,820,1.2,0.2,409900,3.1,2.06
+,,r132,sport and hobby,9910,2090,2.3,0.5,409900,3.1,2.06
+,,r133,watch -- camera -- photographic and cinematographic equipment,2710,1700,0.5,0.2,409900,3.1,2.06
+,,r134,holidays -- hotels,25810,3840,6.1,0.9,409900,3.1,2.06
+,,r135,other spare time,11410,2140,2.6,0.4,409900,3.1,2.06
+,,r136,entertainment,1980,700,0.5,0.2,409900,3.1,2.06
+,,r137,books -- newspapers -- television taxes,12250,1230,3.1,0.3,409900,3.1,2.06
+,,r138,mobiltelephone (callcharge and subscription fee),2770,360,0.7,0.1,409900,3.1,2.06
+,,r139,telephone (callcharge and subscription fee),3890,290,1.0,0.1,409900,3.1,2.06
+D10,decil 10,r001,total expenditures,563420,48570,100.0,0.0,412280,3.1,2.07
+,,r002,food,55570,3640,10.9,0.8,412280,3.1,2.07
+,,r003,bread and cereals,7770,590,1.6,0.1,412280,3.1,2.07
+,,r004,rice and products of rice -- of which:,300,60,..,..,412280,3.1,2.07
+,,r005,rice,140,40,..,..,412280,3.1,2.07
+,,r006,products of rice,160,40,..,..,412280,3.1,2.07
+,,r007,pasta products,730,120,..,..,412280,3.1,2.07
+,,r008,flour -- grain,1080,170,..,..,412280,3.1,2.07
+,,r009,bread -- of which:,3350,280,0.7,0.1,412280,3.1,2.07
+,,r010,hard bread,470,70,..,..,412280,3.1,2.07
+,,r011,soft white bread,780,120,..,..,412280,3.1,2.07
+,,r012,soft brown bread,570,100,..,..,412280,3.1,2.07
+,,r013,soft light bread,900,110,..,..,412280,3.1,2.07
+,,r014,bread unspecified,630,120,..,..,412280,3.1,2.07
+,,r015,pastry-cook products,2310,300,0.5,0.1,412280,3.1,2.07
+,,r016,meat,11450,1150,2.2,0.2,412280,3.1,2.07
+,,r017,fresh -- chilled or frozen meat of bovine animals,2510,520,0.4,0.1,412280,3.1,2.07
+,,r018,fresh -- chilled or frozen meat of pig,1830,300,0.4,0.1,412280,3.1,2.07
+,,r019,fresh -- chilled or frozen meat of sheep and goat,630,390,..,..,412280,3.1,2.07
+,,r020,fresh -- chilled or frozen meat of poultry,1180,230,..,..,412280,3.1,2.07
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,412280,3.1,2.07
+,,r022,dried -- salted or smoked meat of pig,2140,280,0.4,0.1,412280,3.1,2.07
+,,r023,dried -- salted or smoked other meats,340,120,..,..,412280,3.1,2.07
+,,r024,meat -- sausages and meat of sandwiches,1460,200,..,..,412280,3.1,2.07
+,,r025,pastry -- cured meats and provisions,530,210,..,..,412280,3.1,2.07
+,,r026,meatdishes,580,170,..,..,412280,3.1,2.07
+,,r027,meat - unspecified,240,150,..,..,412280,3.1,2.07
+,,r028,fish,4210,600,0.8,0.1,412280,3.1,2.07
+,,r029,fresh -- chilled or frozen fish -- of which:,1760,400,0.4,0.1,412280,3.1,2.07
+,,r030,codfish,240,70,..,..,412280,3.1,2.07
+,,r031,salomonfish,860,210,0.2,0.1,412280,3.1,2.07
+,,r032,herring,..,..,..,..,412280,3.1,2.07
+,,r033,other fish,370,210,..,..,412280,3.1,2.07
+,,r034,seafood,880,280,..,..,412280,3.1,2.07
+,,r035,caviar -- roes -- other fishproducts,270,80,..,..,412280,3.1,2.07
+,,r036,fish and seafood dishes,1260,210,0.2,0.1,412280,3.1,2.07
+,,r037,fish and seafood - unspecified,260,220,..,..,412280,3.1,2.07
+,,r038,milk -- cheese and eggs,8350,630,1.7,0.2,412280,3.1,2.07
+,,r039,milk (fat >=1 --5%),380,90,..,..,412280,3.1,2.07
+,,r040,low fat milk (fat <1 --5%),1370,170,..,..,412280,3.1,2.07
+,,r041,preserved milk,50,20,..,..,412280,3.1,2.07
+,,r042,yoghurt and sour milk,1500,150,..,..,412280,3.1,2.07
+,,r043,cream -- sour cream (fat>=29%),410,60,..,..,412280,3.1,2.07
+,,r044,cream -- sour cream (fat<29%),500,70,..,..,412280,3.1,2.07
+,,r045,cheese (fat >=17%),2180,250,0.4,0.1,412280,3.1,2.07
+,,r046,cheese (fat <17%),1330,170,..,..,412280,3.1,2.07
+,,r047,eggs,630,80,..,..,412280,3.1,2.07
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,412280,3.1,2.07
+,,r049,oils and fats,1470,200,..,..,412280,3.1,2.07
+,,r050,butter,600,100,..,..,412280,3.1,2.07
+,,r051,margarine (fat>=40%),270,60,..,..,412280,3.1,2.07
+,,r052,margarine (fat<40%),100,30,..,..,412280,3.1,2.07
+,,r053,olive oil -- cooking oil -- mayonnaise,490,170,..,..,412280,3.1,2.07
+,,r054,fruit and berries,4790,480,1.0,0.1,412280,3.1,2.07
+,,r055,apples,610,110,..,..,412280,3.1,2.07
+,,r056,pears,140,40,..,..,412280,3.1,2.07
+,,r057,bananas,700,120,..,..,412280,3.1,2.07
+,,r058,citrus fruits,820,120,..,..,412280,3.1,2.07
+,,r059,other fresh fruit,610,120,..,..,412280,3.1,2.07
+,,r060,dried fruit,830,150,..,..,412280,3.1,2.07
+,,r061,berries,760,160,..,..,412280,3.1,2.07
+,,r062,preserved fruit and fruit based products,170,60,..,..,412280,3.1,2.07
+,,r063,others fruit and berries,140,60,..,..,412280,3.1,2.07
+,,r064,vegetables,6290,580,1.3,0.1,412280,3.1,2.07
+,,r065,leaf and stem vegetables,780,120,..,..,412280,3.1,2.07
+,,r066,cabbages -- fresh,240,50,..,..,412280,3.1,2.07
+,,r067,vegetables cultivated for their fruit -- fresh ,2110,230,0.4,0.1,412280,3.1,2.07
+,,r068,onion -- leek -- fresh,290,40,..,..,412280,3.1,2.07
+,,r069,mashrooms -- fresh,170,70,..,..,412280,3.1,2.07
+,,r070,soups -- vegetabledishes,980,170,..,..,412280,3.1,2.07
+,,r071,root crops,490,90,..,..,412280,3.1,2.07
+,,r072,potatoes,560,80,..,..,412280,3.1,2.07
+,,r073,products of potatoes (french fries -- mashed potatoes),460,100,..,..,412280,3.1,2.07
+,,r074,vegetables - unspecified,200,150,..,..,412280,3.1,2.07
+,,r075,sugar and sweets,4790,440,1.0,0.1,412280,3.1,2.07
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,270,70,..,..,412280,3.1,2.07
+,,r077,jams -- marmelade,300,60,..,..,412280,3.1,2.07
+,,r078,ice cream,820,140,..,..,412280,3.1,2.07
+,,r079,other suger products,3400,350,0.7,0.1,412280,3.1,2.07
+,,r080,sauces -- condiments,900,120,..,..,412280,3.1,2.07
+,,r081,salt -- spices and culinary herbs,690,110,..,..,412280,3.1,2.07
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,390,90,..,..,412280,3.1,2.07
+,,r083,snacks,590,90,..,..,412280,3.1,2.07
+,,r084,unspec provisions,3880,2700,0.5,0.2,412280,3.1,2.07
+,,r085,non alcoholic beverages,3880,410,0.8,0.1,412280,3.1,2.07
+,,r086,fruit- and vegetable juices,870,130,..,..,412280,3.1,2.07
+,,r087,soft drinks,1560,250,0.3,0.1,412280,3.1,2.07
+,,r088,mineral or spring waters,350,70,..,..,412280,3.1,2.07
+,,r089,coffee,800,140,..,..,412280,3.1,2.07
+,,r090,tee,260,80,..,..,412280,3.1,2.07
+,,r091,cacao,40,20,..,..,412280,3.1,2.07
+,,r092,dinner out,25580,5340,4.7,0.8,412280,3.1,2.07
+,,r093,alcoholic beverages (with low-strength beer),8370,1500,1.4,0.3,412280,3.1,2.07
+,,r094,tobacco ,1700,700,0.4,0.2,412280,3.1,2.07
+,,r095,consumer goods,10000,1250,1.9,0.2,412280,3.1,2.07
+,,r096,personal hygiene,5830,940,1.1,0.2,412280,3.1,2.07
+,,r097,other consumption purposes,4170,600,0.8,0.1,412280,3.1,2.07
+,,r098,domestic services,22790,6740,3.7,0.7,412280,3.1,2.07
+,,r099,childminding,3550,910,0.7,0.2,412280,3.1,2.07
+,,r100,charge of skill -- other insurance,5020,3080,0.8,0.3,412280,3.1,2.07
+,,r101,other services,14220,5850,2.1,0.6,412280,3.1,2.07
+,,r102,clothing and footwear,37000,11360,6.3,1.5,412280,3.1,2.07
+,,r103,clothing,32450,11310,5.5,1.5,412280,3.1,2.07
+,,r104, outdoor clothes,8180,4000,1.3,0.6,412280,3.1,2.07
+,,r105,other clothes,19090,7800,3.2,1.0,412280,3.1,2.07
+,,r106,underwear,2600,590,0.5,0.1,412280,3.1,2.07
+,,r107,accessoarer -- hats -- caps -- gloves etc.,1650,630,0.3,0.1,412280,3.1,2.07
+,,r108,footwear,4550,1190,0.9,0.2,412280,3.1,2.07
+,,r109,housing,111620,7320,21.9,1.3,412280,3.1,2.07
+,,r110,actual rentals for housing (incl. garage),20060,4540,4.2,1.0,412280,3.1,2.07
+,,r111,reparations,9350,2500,1.7,0.4,412280,3.1,2.07
+,,r112,householder´s comprehensive insurance,3840,460,0.8,0.1,412280,3.1,2.07
+,,r113,services associates with housing ,7490,820,1.6,0.2,412280,3.1,2.07
+,,r114,electicity -- gas and other fuels ,17320,1520,3.6,0.5,412280,3.1,2.07
+,,r115,interests (gross),46960,6050,8.6,1.0,412280,3.1,2.07
+,,r116,furnishings -- household equipment and routine maintenance of the house,40070,13660,6.3,1.0,412280,3.1,2.07
+,,r117,furniture and furnishings -- carpets and other floor coverings,21470,13080,3.0,0.8,412280,3.1,2.07
+,,r118,textile,2190,680,0.4,0.1,412280,3.1,2.07
+,,r119,household applience,16410,3690,2.8,0.6,412280,3.1,2.07
+,,r120,health and hospital services,8610,1800,1.7,0.4,412280,3.1,2.07
+,,r121,transport,85060,13470,16.4,2.7,412280,3.1,2.07
+,,r122,purchase of new motor-cars,27860,11450,5.6,2.8,412280,3.1,2.07
+,,r123,purchase of other vehicles,5170,2090,1.0,0.4,412280,3.1,2.07
+,,r124,operation of motor-cars,37370,4720,7.2,0.7,412280,3.1,2.07
+,,r125,interests (motorcars - gross) -- licence duty,3310,710,0.6,0.1,412280,3.1,2.07
+,,r126,operation of other vehicles,2360,1170,0.4,0.2,412280,3.1,2.07
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),130,80,..,..,412280,3.1,2.07
+,,r128,services of transport,8860,4200,1.6,0.6,412280,3.1,2.07
+,,r129,leisure time and culture,108410,11270,19.1,1.4,412280,3.1,2.07
+,,r130,weekend cottage,8610,3230,1.2,0.4,412280,3.1,2.07
+,,r131,radio and tv,7140,2350,1.2,0.2,412280,3.1,2.07
+,,r132,sport and hobby,14350,3740,2.4,0.5,412280,3.1,2.07
+,,r133,watch -- camera -- photographic and cinematographic equipment,5210,3410,0.8,0.3,412280,3.1,2.07
+,,r134,holidays -- hotels,34710,5930,6.2,1.0,412280,3.1,2.07
+,,r135,other spare time,13290,2760,2.4,0.4,412280,3.1,2.07
+,,r136,entertainment,2750,730,0.6,0.2,412280,3.1,2.07
+,,r137,books -- newspapers -- television taxes,15460,2640,3.0,0.4,412280,3.1,2.07
+,,r138,mobiltelephone (callcharge and subscription fee),2990,440,0.6,0.1,412280,3.1,2.07
+,,r139,telephone (callcharge and subscription fee),3890,250,0.8,0.1,412280,3.1,2.07
+TOT,all households,r001,total expenditures,295040,8410,100.0,0.0,3984880,2.1,1.58
+,,r002,food,34130,880,13.0,0.4,3984880,2.1,1.58
+,,r003,bread and cereals,5530,180,2.2,0.1,3984880,2.1,1.58
+,,r004,rice and products of rice -- of which:,240,20,..,..,3984880,2.1,1.58
+,,r005,rice,120,20,..,..,3984880,2.1,1.58
+,,r006,products of rice,120,20,..,..,3984880,2.1,1.58
+,,r007,pasta products,400,30,..,..,3984880,2.1,1.58
+,,r008,flour -- grain,730,70,..,..,3984880,2.1,1.58
+,,r009,bread -- of which:,2360,80,..,..,3984880,2.1,1.58
+,,r010,hard bread,340,30,..,..,3984880,2.1,1.58
+,,r011,soft white bread,540,30,..,..,3984880,2.1,1.58
+,,r012,soft brown bread,410,30,..,..,3984880,2.1,1.58
+,,r013,soft light bread,640,40,..,..,3984880,2.1,1.58
+,,r014,bread unspecified,430,40,..,..,3984880,2.1,1.58
+,,r015,pastry-cook products,1810,110,0.7,0.1,3984880,2.1,1.58
+,,r016,meat,6750,260,2.6,0.1,3984880,2.1,1.58
+,,r017,fresh -- chilled or frozen meat of bovine animals,980,90,..,..,3984880,2.1,1.58
+,,r018,fresh -- chilled or frozen meat of pig,1200,80,..,..,3984880,2.1,1.58
+,,r019,fresh -- chilled or frozen meat of sheep and goat,220,60,..,..,3984880,2.1,1.58
+,,r020,fresh -- chilled or frozen meat of poultry,770,70,..,..,3984880,2.1,1.58
+,,r021,dried -- salted or smoked meat and edible meat offal,..,..,..,..,3984880,2.1,1.58
+,,r022,dried -- salted or smoked meat of pig,1390,80,..,..,3984880,2.1,1.58
+,,r023,dried -- salted or smoked other meats,230,30,..,..,3984880,2.1,1.58
+,,r024,meat -- sausages and meat of sandwiches,1060,60,..,..,3984880,2.1,1.58
+,,r025,pastry -- cured meats and provisions,370,50,..,..,3984880,2.1,1.58
+,,r026,meatdishes,390,50,..,..,3984880,2.1,1.58
+,,r027,meat - unspecified,130,40,..,..,3984880,2.1,1.58
+,,r028,fish,2120,130,0.8,0.1,3984880,2.1,1.58
+,,r029,fresh -- chilled or frozen fish -- of which:,850,80,..,..,3984880,2.1,1.58
+,,r030,codfish,160,30,..,..,3984880,2.1,1.58
+,,r031,salomonfish,400,50,..,..,3984880,2.1,1.58
+,,r032,herring,20,10,..,..,3984880,2.1,1.58
+,,r033,other fish,180,30,..,..,3984880,2.1,1.58
+,,r034,seafood,350,60,..,..,3984880,2.1,1.58
+,,r035,caviar -- roes -- other fishproducts,160,20,..,..,3984880,2.1,1.58
+,,r036,fish and seafood dishes,750,60,..,..,3984880,2.1,1.58
+,,r037,fish and seafood - unspecified,80,40,..,..,3984880,2.1,1.58
+,,r038,milk -- cheese and eggs,5630,170,2.2,0.1,3984880,2.1,1.58
+,,r039,milk (fat >=1 --5%),350,30,..,..,3984880,2.1,1.58
+,,r040,low fat milk (fat <1 --5%),910,50,..,..,3984880,2.1,1.58
+,,r041,preserved milk,40,10,..,..,3984880,2.1,1.58
+,,r042,yoghurt and sour milk,910,50,..,..,3984880,2.1,1.58
+,,r043,cream -- sour cream (fat>=29%),300,20,..,..,3984880,2.1,1.58
+,,r044,cream -- sour cream (fat<29%),350,20,..,..,3984880,2.1,1.58
+,,r045,cheese (fat >=17%),1470,80,..,..,3984880,2.1,1.58
+,,r046,cheese (fat <17%),780,50,..,..,3984880,2.1,1.58
+,,r047,eggs,500,30,..,..,3984880,2.1,1.58
+,,r048,milk -- cheese -- eggs - ospec,..,..,..,..,3984880,2.1,1.58
+,,r049,oils and fats,980,60,..,..,3984880,2.1,1.58
+,,r050,butter,390,30,..,..,3984880,2.1,1.58
+,,r051,margarine (fat>=40%),230,20,..,..,3984880,2.1,1.58
+,,r052,margarine (fat<40%),100,10,..,..,3984880,2.1,1.58
+,,r053,olive oil -- cooking oil -- mayonnaise,260,40,..,..,3984880,2.1,1.58
+,,r054,fruit and berries,2920,120,1.1,0.1,3984880,2.1,1.58
+,,r055,apples,380,30,..,..,3984880,2.1,1.58
+,,r056,pears,120,10,..,..,3984880,2.1,1.58
+,,r057,bananas,460,30,..,..,3984880,2.1,1.58
+,,r058,citrus fruits,490,30,..,..,3984880,2.1,1.58
+,,r059,other fresh fruit,330,30,..,..,3984880,2.1,1.58
+,,r060,dried fruit,500,40,..,..,3984880,2.1,1.58
+,,r061,berries,450,40,..,..,3984880,2.1,1.58
+,,r062,preserved fruit and fruit based products,110,20,..,..,3984880,2.1,1.58
+,,r063,others fruit and berries,80,20,..,..,3984880,2.1,1.58
+,,r064,vegetables,3860,140,1.5,0.1,3984880,2.1,1.58
+,,r065,leaf and stem vegetables,440,30,..,..,3984880,2.1,1.58
+,,r066,cabbages -- fresh,140,10,..,..,3984880,2.1,1.58
+,,r067,vegetables cultivated for their fruit -- fresh ,1270,60,..,..,3984880,2.1,1.58
+,,r068,onion -- leek -- fresh,200,10,..,..,3984880,2.1,1.58
+,,r069,mashrooms -- fresh,70,10,..,..,3984880,2.1,1.58
+,,r070,soups -- vegetabledishes,600,40,..,..,3984880,2.1,1.58
+,,r071,root crops,250,20,..,..,3984880,2.1,1.58
+,,r072,potatoes,440,30,..,..,3984880,2.1,1.58
+,,r073,products of potatoes (french fries -- mashed potatoes),350,30,..,..,3984880,2.1,1.58
+,,r074,vegetables - unspecified,90,30,..,..,3984880,2.1,1.58
+,,r075,sugar and sweets,3140,120,..,..,3984880,2.1,1.58
+,,r076,sugar -- jam -- honey -- chocolate and confectionery,220,20,..,..,3984880,2.1,1.58
+,,r077,jams -- marmelade,190,20,..,..,3984880,2.1,1.58
+,,r078,ice cream,600,50,..,..,3984880,2.1,1.58
+,,r079,other suger products,2130,90,..,..,3984880,2.1,1.58
+,,r080,sauces -- condiments,550,30,..,..,3984880,2.1,1.58
+,,r081,salt -- spices and culinary herbs,360,30,..,..,3984880,2.1,1.58
+,,r082,baby food -- dietary preparations -- baker´s yeast and other food preparations,290,30,..,..,3984880,2.1,1.58
+,,r083,snacks,380,30,..,..,3984880,2.1,1.58
+,,r084,unspec provisions,1590,380,0.5,0.1,3984880,2.1,1.58
+,,r085,non alcoholic beverages,2660,110,1.0,0.1,3984880,2.1,1.58
+,,r086,fruit- and vegetable juices,470,30,..,..,3984880,2.1,1.58
+,,r087,soft drinks,1140,70,..,..,3984880,2.1,1.58
+,,r088,mineral or spring waters,210,20,..,..,3984880,2.1,1.58
+,,r089,coffee,650,50,..,..,3984880,2.1,1.58
+,,r090,tee,160,20,..,..,3984880,2.1,1.58
+,,r091,cacao,30,10,..,..,3984880,2.1,1.58
+,,r092,dinner out,10470,820,3.3,0.2,3984880,2.1,1.58
+,,r093,alcoholic beverages (with low-strength beer),3930,320,1.4,0.1,3984880,2.1,1.58
+,,r094,tobacco ,2210,270,1.0,0.1,3984880,2.1,1.58
+,,r095,consumer goods,5890,320,2.0,0.1,3984880,2.1,1.58
+,,r096,personal hygiene,3370,230,1.1,0.1,3984880,2.1,1.58
+,,r097,other consumption purposes,2520,170,0.9,0.1,3984880,2.1,1.58
+,,r098,domestic services,10250,970,2.9,0.2,3984880,2.1,1.58
+,,r099,childminding,1590,130,..,..,3984880,2.1,1.58
+,,r100,charge of skill -- other insurance,1860,350,0.5,0.1,3984880,2.1,1.58
+,,r101,other services,6810,880,2.0,0.2,3984880,2.1,1.58
+,,r102,clothing and footwear,14900,1550,4.4,0.4,3984880,2.1,1.58
+,,r103,clothing,12570,1500,3.6,0.3,3984880,2.1,1.58
+,,r104, outdoor clothes,2960,640,0.8,0.1,3984880,2.1,1.58
+,,r105,other clothes,7270,1030,2.1,0.2,3984880,2.1,1.58
+,,r106,underwear,1280,150,0.4,0.1,3984880,2.1,1.58
+,,r107,accessoarer -- hats -- caps -- gloves etc.,540,120,..,..,3984880,2.1,1.58
+,,r108,footwear,2320,290,0.7,0.1,3984880,2.1,1.58
+,,r109,housing,73340,1800,29.2,0.7,3984880,2.1,1.58
+,,r110,actual rentals for housing (incl. garage),29660,1290,15.1,0.8,3984880,2.1,1.58
+,,r111,reparations,5470,810,1.5,0.2,3984880,2.1,1.58
+,,r112,householder´s comprehensive insurance,2030,90,..,..,3984880,2.1,1.58
+,,r113,services associates with housing ,4320,290,1.6,0.1,3984880,2.1,1.58
+,,r114,electicity -- gas and other fuels ,10340,460,3.9,0.2,3984880,2.1,1.58
+,,r115,interests (gross),18380,1200,5.3,0.4,3984880,2.1,1.58
+,,r116,furnishings -- household equipment and routine maintenance of the house,17300,1930,4.9,0.3,3984880,2.1,1.58
+,,r117,furniture and furnishings -- carpets and other floor coverings,7630,1480,2.1,0.2,3984880,2.1,1.58
+,,r118,textile,1180,180,0.4,0.1,3984880,2.1,1.58
+,,r119,household applience,8490,1120,2.4,0.2,3984880,2.1,1.58
+,,r120,health and hospital services,6580,810,2.2,0.3,3984880,2.1,1.58
+,,r121,transport,50250,3100,14.8,0.7,3984880,2.1,1.58
+,,r122,purchase of new motor-cars,15240,2240,3.5,0.6,3984880,2.1,1.58
+,,r123,purchase of other vehicles,2530,620,0.6,0.2,3984880,2.1,1.58
+,,r124,operation of motor-cars,24980,1690,8.1,0.4,3984880,2.1,1.58
+,,r125,interests (motorcars - gross) -- licence duty,2140,170,..,..,3984880,2.1,1.58
+,,r126,operation of other vehicles,1030,200,0.3,0.1,3984880,2.1,1.58
+,,r127,interests (other vehicles - gross) -- licence duty (other vehicles),100,40,..,..,3984880,2.1,1.58
+,,r128,services of transport,4250,600,1.5,0.2,3984880,2.1,1.58
+,,r129,leisure time and culture,55120,2750,18.3,0.6,3984880,2.1,1.58
+,,r130,weekend cottage,3460,560,1.1,0.2,3984880,2.1,1.58
+,,r131,radio and tv,3770,380,1.3,0.1,3984880,2.1,1.58
+,,r132,sport and hobby,7150,1830,1.9,0.3,3984880,2.1,1.58
+,,r133,watch -- camera -- photographic and cinematographic equipment,2030,600,0.5,0.1,3984880,2.1,1.58
+,,r134,holidays -- hotels,14470,1180,4.5,0.4,3984880,2.1,1.58
+,,r135,other spare time,7730,600,2.6,0.2,3984880,2.1,1.58
+,,r136,entertainment,1490,200,0.5,0.1,3984880,2.1,1.58
+,,r137,books -- newspapers -- television taxes,9440,470,3.6,0.2,3984880,2.1,1.58
+,,r138,mobiltelephone (callcharge and subscription fee),2430,160,0.9,0.1,3984880,2.1,1.58
+,,r139,telephone (callcharge and subscription fee),3150,110,1.4,0.1,3984880,2.1,1.58
