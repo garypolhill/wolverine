@@ -23,6 +23,7 @@ my $nlogo_py = "\$HOME/git/NetLogo-tk/nlogo.py";
 my $concur = 10;
 my $project = "sm7";
 my $gigaram = 16;
+my $version = "6.3.0";
 
 my %paper_parameters = (
   'scb-year' => 1,
@@ -141,13 +142,13 @@ if(scalar(@ARGV) > 0 && $ARGV[0] eq "--help") {
   print STDERR "Usage: $0 [--iv2-start <year>] [--iv2-stop <year>] [--rent-options <opt1,opt2,...>] ",
     "[--building-years <yyyy1,yyyy2,yyyy3,...>] [--districts <burgh1,burgh2,burgh3,...>] ",
     "[--n-sample <n>] [--sim-start <year>] [--sim-stop <year>] [--output-stem <filename stem>] ",
-    "[--nlogo.py <path>] [--concur <n>] [--project <wckey>] [--gigaram <g>]\n";
+    "[--nlogo.py <path>] [--concur <n>] [--project <wckey>] [--gigaram <g>] [--version <nlogo v>]\n";
   print STDERR "\tDefaults:\n\t\t--iv2-start $iv2_start\n\t\t--iv2-stop $iv2_stop\n\t\t",
     "--rent-options ", join(",", @iv2_rent_options), "\n\t\t--building-years ",
     join(",", @iv2_bldg_years), "\n\t\t--districts ", join(",", @districts),
     "\n\t\t--n-sample $n_sample\n\t\t--sim-start $sim_start\n\t\t--sim-stop $sim_stop",
     "\n\t\t--output-stem $out_stem\n\t\t--nlogo.py $nlogo_py\n\t\t--concur $concur\n\t\t--project ",
-    "$project\n\t\t--gigaram $gigaram\n";
+    "$project\n\t\t--gigaram $gigaram\n\t\t--version $version\n";
   exit(1);
 }
 
@@ -194,6 +195,9 @@ while($ARGV[0] =~ /^-/) {
   elsif($opt eq "--gigaram") {
     $gigaram = shift(@ARGV);
   }
+  elsif($opt eq "--version") {
+    $version = shift(@ARGV);
+  }
   else {
     print STDERR "Option $opt not recognized; try --help\n";
   }
@@ -214,6 +218,7 @@ while($ARGV[0] =~ /^-/) {
 &logbook("Number of concurrent runs: ", $concur);
 &logbook("SLURM wckey project ID: ", $project);
 &logbook("Gibibytes of RAM per run: ", $gigaram);
+&logbook("NetLogo version to use: ", $version);
 
 # Globals
 
@@ -736,7 +741,7 @@ foreach my $sample_file (@sample_files) {
   my $sample_stem = substr($sample_file, 0, -4);
   my $xml = "${sample_stem}.xml";
   my $sh = "${sample_stem}.sh";
-  print SETUP "$nlogo_py -g $gigaram --limit-concurrent $concur --mc-expt $sample_stem wolverine-v2.nlogo montq $sample_file $n_ticks $n_sample $xml $sh\n";
+  print SETUP "$nlogo_py -v $version -g $gigaram --limit-concurrent $concur --mc-expt $sample_stem wolverine-v2.nlogo montq $sample_file $n_ticks $n_sample $xml $sh\n";
   print RUN "sbatch --wckey=$project $sh\n";
   $n_runs += $n_sample;
 }
