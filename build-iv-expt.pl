@@ -21,7 +21,7 @@ my $sim_start = 2005;
 my $sim_stop = 2025;
 my $nlogo_py = "\$HOME/git/NetLogo-tk/nlogo.py";
 my $concur = 10;
-my $project = "sm7";
+my $project = "c5";
 my $gigaram = 16;
 my $version = "6.3.0";
 
@@ -732,19 +732,22 @@ my @iv_files = &create_iv_files($out_stem);
 my @sample_files = &build_sample_files(@iv_files);
 my $setup_file = "${out_stem}-setup.sh";
 my $run_file = "${out_stem}-run.sh";
+my $cancel_file = "${out_stem}-cancel.sh";
 open(SETUP, ">", $setup_file) or die "Cannot create setup shell script $setup_file: $!\n";
 open(RUN, ">", $run_file) or die "Cannot create run shell script $run_file: $!\n";
 print SETUP '#!/bin/sh', "\n";
 print RUN '#!/bin/sh', "\n";
+print RUN "echo \'#!/bin/sh\' > $cancel_file\n";
 my $n_runs = 0;
 foreach my $sample_file (@sample_files) {
   my $sample_stem = substr($sample_file, 0, -4);
   my $xml = "${sample_stem}.xml";
   my $sh = "${sample_stem}.sh";
   print SETUP "$nlogo_py -v $version -g $gigaram --file-param hh-file --no-final-save --no-progress --limit-concurrent $concur --mc-expt $sample_stem wolverine-v2.nlogo montq $sample_file $n_ticks $n_sample $xml $sh\n";
-  print RUN "sbatch --wckey=$project $sh\n";
+  print RUN "sbatch --wckey=$project $sh | sed -e 's/Submitted batch job/scancel/' >> $cancel_file\n";
   $n_runs += $n_sample;
 }
+print RUN "chmod 755 $cancel_file\n";
 close(SETUP);
 chmod(0755, $setup_file) or die "Cannot make setup shell script $setup_file executable: $!\n";
 &logbook("Created setup script $setup_file");
