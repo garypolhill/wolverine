@@ -741,7 +741,7 @@ foreach my $sample_file (@sample_files) {
   my $sample_stem = substr($sample_file, 0, -4);
   my $xml = "${sample_stem}.xml";
   my $sh = "${sample_stem}.sh";
-  print SETUP "$nlogo_py -v $version -g $gigaram --no-final-save --no-progress --limit-concurrent $concur --mc-expt $sample_stem wolverine-v2.nlogo montq $sample_file $n_ticks $n_sample $xml $sh\n";
+  print SETUP "$nlogo_py -v $version -g $gigaram --file-param hh-file --no-final-save --no-progress --limit-concurrent $concur --mc-expt $sample_stem wolverine-v2.nlogo montq $sample_file $n_ticks $n_sample $xml $sh\n";
   print RUN "sbatch --wckey=$project $sh\n";
   $n_runs += $n_sample;
 }
