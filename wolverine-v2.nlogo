@@ -285,248 +285,253 @@ to setup
   reset-timer
   set error? false
 
-  print-progress "setup started"
+  carefully [
+    print-progress "setup started"
 
-  set is-stockholm? false
-  set is-malmo? false
+    set is-stockholm? false
+    set is-malmo? false
 
-  (ifelse model-area = "Jarva/Stockholm" [
-    set latitude 59.3293
-    set is-stockholm? true
-  ] model-area = "Augustenborg/Malmo" [
-    set latitude 55.5600
-    set is-malmo? true
-  ] [
-    output-error (word "Unrecognized model-area setting: \"" model-area "\"")
-  ])
-  output-note (word "Modelling " model-area ", lat. " latitude)
-  print-progress "loading SCB data"
-
-  initialize-scb "Data/housing"
-
-  print-progress "initializing patch variables"
-
-  ask patches [
-    patches-init-variables
-  ]
-
-  print-progress "loading GIS data files"
-
-  let gis-boundaries 0
-  let gis-pois table:make
-  let gis-buildings table:make
-  let gis-roads table:make
-
-  if is-stockholm? [
-    set gis-dir "Data/gis-stockholm"
-
-    set gis-boundaries gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-stadsdelar.shp")
-    ; Load place of interests (pois)
-    table:put gis-pois "A-pois-green" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-POIS-Green_areas.shp")
-    table:put gis-buildings "A-service" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-POIS-Public_buildings.shp")
-    table:put gis-pois "A-pois-water" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Water.shp")
-    ; Load buildings/apartment
-    table:put gis-buildings "A-apartment" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Buildings-Dwellings.shp")
-    ; Load buildings/activities
-    table:put gis-buildings "A-activity" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Buildings-Activities.shp")
-    ; Load roads/roadways
-    table:put gis-roads "R-roadway" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Roads-Roadways.shp")
-    ; Load roads/cycleways
-    table:put gis-roads "R-cycleway" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Roads-Cycleways.shp")
-    ; Load roads/footways
-    table:put gis-roads "R-footway" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Roads-Footways.shp")
-    ; Load rails (file includes subways)
-    table:put gis-roads "R-railway" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Rail.shp")
-
-  ]
-
-  if is-malmo? [
-    set gis-dir "Data/gis-malmo"
-
-    set gis-boundaries gis:load-dataset (word gis-dir "/Augustenborg_Boundaries_CRS.shp")
-    table:put gis-pois "from-file" gis:load-dataset (word gis-dir "/Augustenborg_POIS_CRS.shp")
-    table:put gis-buildings "from-file" gis:load-dataset (word gis-dir "/Augustenborg_Buildings_CRS.shp")
-    table:put gis-roads "from-file" gis:load-dataset (word gis-dir "/Augustenborg_Roads_CRS.shp")
-
-  ]
-
-  ; Define world limit based on gis data
-  print-progress "defining world envelope"
-  if is-number? gis-boundaries [
-    output-error "No boundary data loaded"
-  ]
-
-  gis:set-world-envelope ;gis:envelope-of gis-boundaries
-   (gis:envelope-union-of
-    gis:envelope-of gis-boundaries
-    gis-union-of-table gis-pois
-    gis-union-of-table gis-buildings
-    gis-union-of-table gis-roads
-  )
-
-  ; Load and draw various gis files
-  ; Load boroughs boundaries
-
-  let env-deg gis:world-envelope
-  let env-y-deg abs (item 3 env-deg - item 2 env-deg)
-  ; see table for phi = 60 degrees latitude in section entitled "Meridian distance on the ellipsoid" at https://en.wikipedia.org/wiki/Latitude
-  set patch-km 111.412 * env-y-deg / world-height
-  set max-walk max-walk-dist / patch-km
-  set max-cycle max-cycle-dist / patch-km
-
-  ; Draw borough boundaries
-  print-progress "drawing map"
-  gis:set-drawing-color black
-  gis:draw gis-boundaries 1
-
-  ; Find the centroid of each borough and assign the corresponding borough name
-  print-progress "finding neighbourhood centroids"
-  patches-areas-find-borough-centroids (gis-boundaries)
-
-  ; Assign an area type to patches within the map {(gis-datafile) (patch-type) (color)}
-  print-progress "finding areas with buildings and greenspace"
-
-  foreach table:keys gis-buildings [ gis-data-key ->
-    patches-assign-area-features (table:get gis-buildings gis-data-key) gis-data-key
-  ]
-  foreach table:keys gis-pois [ gis-data-key ->
-    patches-assign-area-features (table:get gis-pois gis-data-key) gis-data-key
-  ]
-  foreach ["A-apartment" "A-activity" "A-service" "A-pois-green" "A-pois-water"] [ tp ->
-    output-note (word (count patches with [member? tp patch-type]) " patches with type \"" tp "\" initialized")
-  ]
-
-  ; Create buildings over patches {(type of patch) (type of building) (size) (color) (shape)}
-  print-progress "creating buildings (apartments, activities, and services)"
-
-  set apartment-buildings buildings with [building-type = "A-apartment"]
-  ask apartment-buildings [
-    let n-apartments ifelse-value (building-subtype = "apartments") [
-      dwellings-per-tower-block
+    (ifelse model-area = "Jarva/Stockholm" [
+      set latitude 59.3293
+      set is-stockholm? true
+    ] model-area = "Augustenborg/Malmo" [
+      set latitude 55.5600
+      set is-malmo? true
     ] [
-      ifelse-value (building-subtype = "terrace") [
-        dwellings-per-terrace
+      output-error (word "Unrecognized model-area setting: \"" model-area "\"")
+    ])
+    output-note (word "Modelling " model-area ", lat. " latitude)
+    print-progress "loading SCB data"
+
+    initialize-scb "Data/housing"
+
+    print-progress "initializing patch variables"
+
+    ask patches [
+      patches-init-variables
+    ]
+
+    print-progress "loading GIS data files"
+
+    let gis-boundaries 0
+    let gis-pois table:make
+    let gis-buildings table:make
+    let gis-roads table:make
+
+    if is-stockholm? [
+      set gis-dir "Data/gis-stockholm"
+
+      set gis-boundaries gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-stadsdelar.shp")
+      ; Load place of interests (pois)
+      table:put gis-pois "A-pois-green" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-POIS-Green_areas.shp")
+      table:put gis-buildings "A-service" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-POIS-Public_buildings.shp")
+      table:put gis-pois "A-pois-water" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Water.shp")
+      ; Load buildings/apartment
+      table:put gis-buildings "A-apartment" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Buildings-Dwellings.shp")
+      ; Load buildings/activities
+      table:put gis-buildings "A-activity" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Buildings-Activities.shp")
+      ; Load roads/roadways
+      table:put gis-roads "R-roadway" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Roads-Roadways.shp")
+      ; Load roads/cycleways
+      table:put gis-roads "R-cycleway" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Roads-Cycleways.shp")
+      ; Load roads/footways
+      table:put gis-roads "R-footway" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Roads-Footways.shp")
+      ; Load rails (file includes subways)
+      table:put gis-roads "R-railway" gis:load-dataset (word gis-dir "/GIS-Stockholm-Jarva-Rail.shp")
+
+    ]
+
+    if is-malmo? [
+      set gis-dir "Data/gis-malmo"
+
+      set gis-boundaries gis:load-dataset (word gis-dir "/Augustenborg_Boundaries_CRS.shp")
+      table:put gis-pois "from-file" gis:load-dataset (word gis-dir "/Augustenborg_POIS_CRS.shp")
+      table:put gis-buildings "from-file" gis:load-dataset (word gis-dir "/Augustenborg_Buildings_CRS.shp")
+      table:put gis-roads "from-file" gis:load-dataset (word gis-dir "/Augustenborg_Roads_CRS.shp")
+
+    ]
+
+    ; Define world limit based on gis data
+    print-progress "defining world envelope"
+    if is-number? gis-boundaries [
+      output-error "No boundary data loaded"
+    ]
+
+    gis:set-world-envelope ;gis:envelope-of gis-boundaries
+    (gis:envelope-union-of
+      gis:envelope-of gis-boundaries
+      gis-union-of-table gis-pois
+      gis-union-of-table gis-buildings
+      gis-union-of-table gis-roads
+    )
+
+    ; Load and draw various gis files
+    ; Load boroughs boundaries
+
+    let env-deg gis:world-envelope
+    let env-y-deg abs (item 3 env-deg - item 2 env-deg)
+    ; see table for phi = 60 degrees latitude in section entitled "Meridian distance on the ellipsoid" at https://en.wikipedia.org/wiki/Latitude
+    set patch-km 111.412 * env-y-deg / world-height
+    set max-walk max-walk-dist / patch-km
+    set max-cycle max-cycle-dist / patch-km
+
+    ; Draw borough boundaries
+    print-progress "drawing map"
+    gis:set-drawing-color black
+    gis:draw gis-boundaries 1
+
+    ; Find the centroid of each borough and assign the corresponding borough name
+    print-progress "finding neighbourhood centroids"
+    patches-areas-find-borough-centroids (gis-boundaries)
+
+    ; Assign an area type to patches within the map {(gis-datafile) (patch-type) (color)}
+    print-progress "finding areas with buildings and greenspace"
+
+    foreach table:keys gis-buildings [ gis-data-key ->
+      patches-assign-area-features (table:get gis-buildings gis-data-key) gis-data-key
+    ]
+    foreach table:keys gis-pois [ gis-data-key ->
+      patches-assign-area-features (table:get gis-pois gis-data-key) gis-data-key
+    ]
+    foreach ["A-apartment" "A-activity" "A-service" "A-pois-green" "A-pois-water"] [ tp ->
+      output-note (word (count patches with [member? tp patch-type]) " patches with type \"" tp "\" initialized")
+    ]
+
+    ; Create buildings over patches {(type of patch) (type of building) (size) (color) (shape)}
+    print-progress "creating buildings (apartments, activities, and services)"
+
+    set apartment-buildings buildings with [building-type = "A-apartment"]
+    ask apartment-buildings [
+      let n-apartments ifelse-value (building-subtype = "apartments") [
+        dwellings-per-tower-block
       ] [
-        ifelse-value apartments-in-houses? [ifelse-value (building-subtype = "detached") [1] [2] ] [0]
+        ifelse-value (building-subtype = "terrace") [
+          dwellings-per-terrace
+        ] [
+          ifelse-value apartments-in-houses? [ifelse-value (building-subtype = "detached") [1] [2] ] [0]
+        ]
+      ]
+      hatch-apartments n-apartments [
+        apartments-init-variables myself
       ]
     ]
-    hatch-apartments n-apartments [
-      apartments-init-variables myself
+    output-note (word count apartments " apartments in buildings created.")
+
+    ask buildings [
+      set building-apartments apartments with [ apartment-building = myself ]
     ]
-  ]
-  output-note (word count apartments " apartments in buildings created.")
 
-  ask buildings [
-    set building-apartments apartments with [ apartment-building = myself ]
-  ]
+    set activity-buildings buildings with [building-type = "A-activity"]
 
-  set activity-buildings buildings with [building-type = "A-activity"]
-
-  ifelse n-activities < count activity-buildings [
-    ask n-of n-activities activity-buildings [
-      hatch-activities 1 [
-        activities-init-variables myself
+    ifelse n-activities < count activity-buildings [
+      ask n-of n-activities activity-buildings [
+        hatch-activities 1 [
+          activities-init-variables myself
+        ]
+      ]
+    ] [
+      repeat n-activities [
+        create-activities 1 [
+          activities-init-variables one-of activity-buildings
+        ]
       ]
     ]
+    output-note (word count activities " buildings of type \"activity\" created.")
+
+    set service-buildings buildings with [building-type = "A-service"]
+    ifelse n-services < count service-buildings [
+      ask n-of n-services buildings with [building-type = "A-service"] [
+        hatch-services 1 [
+          services-init-variables myself
+        ]
+      ]
+    ] [
+      repeat n-services [
+        create-services 1 [
+          services-init-variables one-of service-buildings
+        ]
+      ]
+    ]
+    output-note (word count services " buildings of type \"service\" created.")
+
+    ; Map roads and cycleways to patches
+    print-progress "mapping roads"
+    foreach table:keys gis-roads [ gis-data-key ->
+      patches-roads-assign-type (table:get gis-roads gis-data-key) gis-data-key
+    ]
+    foreach ["R-footway" "R-cycleway" "R-roadway" "R-railway"] [ tp ->
+      output-note (word (count patches with [member? tp patch-type]) " patches with type \"" tp "\" initialized")
+      if tp != "R-railway" [
+        connect-road-network tp
+      ]
+    ]
+
+    ; Create households, one per apartment
+    print-progress "creating households and social network"
+
+    create-households n-households [
+      households-init-variables
+    ]
+
+    output-note (word count households " households created")
+    ; Connect people
+    if (network?) [
+      print-progress "creating social network"
+      households-create-network
+    ]
+    output-note (word count social-ties " ties in social network among households created")
+
+    print-progress "creating household routines"
+    let rt-time timer
+    let i 0
+    let n count households
+    ask households [
+      households-create-routine
+      if timer > rt-time + 60 [
+        set rt-time timer
+        print-progress (word i " of " n " household routines done")
+      ]
+      set i i + 1
+    ]
+
+    set n-crimes 0
+    set n-hate-crimes 0
+    set n-too-diverse 0
+    set n-in-debt 0
+    set move-waiting-list []
+
+    ; Environment
+    print-progress "reading weather data"
+    env-read-weather-data
+    set this-year start-year
+    set this-month 1
+    set this-day 1
+    env-set-today-temperature
+
+    ; Inverventions
+    print-progress "reading/creating interventions"
+    ifelse intervention-file != "" and intervention-file != "NA" and intervention-file != 0 [
+      read-interventions intervention-file
+    ] [
+      repeat n-rand-iv [
+        random-intervention
+      ]
+    ]
+
+
+    ask patches [
+      colour-patch
+    ]
+
+    set n-months 0
+    set n-years 0
+
+    print-progress "setup completed"
   ] [
-    repeat n-activities [
-      create-activities 1 [
-        activities-init-variables one-of activity-buildings
-      ]
-    ]
+    ; end of 'carefully' block -- we are here if an error occurred
+    reset-ticks
+    output-error error-message
   ]
-  output-note (word count activities " buildings of type \"activity\" created.")
-
-  set service-buildings buildings with [building-type = "A-service"]
-  ifelse n-services < count service-buildings [
-    ask n-of n-services buildings with [building-type = "A-service"] [
-      hatch-services 1 [
-        services-init-variables myself
-      ]
-    ]
-  ] [
-    repeat n-services [
-      create-services 1 [
-        services-init-variables one-of service-buildings
-      ]
-    ]
-  ]
-  output-note (word count services " buildings of type \"service\" created.")
-
-  ; Map roads and cycleways to patches
-  print-progress "mapping roads"
-  foreach table:keys gis-roads [ gis-data-key ->
-    patches-roads-assign-type (table:get gis-roads gis-data-key) gis-data-key
-  ]
-  foreach ["R-footway" "R-cycleway" "R-roadway" "R-railway"] [ tp ->
-    output-note (word (count patches with [member? tp patch-type]) " patches with type \"" tp "\" initialized")
-    if tp != "R-railway" [
-      connect-road-network tp
-    ]
-  ]
-
-  ; Create households, one per apartment
-  print-progress "creating households and social network"
-
-  create-households n-households [
-    households-init-variables
-  ]
-
-  output-note (word count households " households created")
-  ; Connect people
-  if (network?) [
-    print-progress "creating social network"
-    households-create-network
-  ]
-  output-note (word count social-ties " ties in social network among households created")
-
-  print-progress "creating household routines"
-  let rt-time timer
-  let i 0
-  let n count households
-  ask households [
-    households-create-routine
-    if timer > rt-time + 60 [
-      set rt-time timer
-      print-progress (word i " of " n " household routines done")
-    ]
-    set i i + 1
-  ]
-
-  set n-crimes 0
-  set n-hate-crimes 0
-  set n-too-diverse 0
-  set n-in-debt 0
-  set move-waiting-list []
-
-  ; Environment
-  print-progress "reading weather data"
-  env-read-weather-data
-  set this-year start-year
-  set this-month 1
-  set this-day 1
-  env-set-today-temperature
-
-  ; Inverventions
-  print-progress "reading/creating interventions"
-  ifelse intervention-file != "" and intervention-file != "NA" and intervention-file != 0 [
-    read-interventions intervention-file
-  ] [
-    repeat n-rand-iv [
-      random-intervention
-    ]
-  ]
-
-
-  ask patches [
-    colour-patch
-  ]
-
-  set n-months 0
-  set n-years 0
-
-  print-progress "setup completed"
-
   reset-ticks
 end
 
@@ -927,181 +932,187 @@ to go
     stop
   ]
 
-  print-progress (word "starting tick " ticks)
+  carefully [
+    print-progress (word "starting tick " ticks)
 
-  update-date
-  set n-crimes 0
-  set n-hate-crimes 0
-  set n-too-diverse 0
-  set n-in-debt 0
+    update-date
+    set n-crimes 0
+    set n-hate-crimes 0
+    set n-too-diverse 0
+    set n-in-debt 0
 
 
-  print-progress "updating temperature"
-  set yesterday-temperature today-temperature
-  env-set-today-temperature
+    print-progress "updating temperature"
+    set yesterday-temperature today-temperature
+    env-set-today-temperature
 
-  print-progress "restoring trust to baseline"
-  ask households with [ abs (household-trust - household-baseline-trust) > 1e-8 ] [
-    let diff household-baseline-trust - household-trust
-    set household-trust household-trust + (trust-ret * diff)
-  ]
-
-  print-progress "decaying buildings"
-  if (yesterday-temperature < 0 and today-temperature >= 0) or (yesterday-temperature >= 0 and today-temperature < 0) [
-    ask one-of buildings with [building-type = "A-apartment"] [
-      building-energy-efficiency-decay
+    print-progress "restoring trust to baseline"
+    ask households with [ abs (household-trust - household-baseline-trust) > 1e-8 ] [
+      let diff household-baseline-trust - household-trust
+      set household-trust household-trust + (trust-ret * diff)
     ]
-  ]
 
-  print-progress "implementing moves"
-  set n-moved 0
-  association-offer-houses
-
-  print-progress "starting daily routine"
-  ask households [
-    households-create-todays-routine
-  ]
-
-  let ok? true
-  let i 1
-  while [ok?] [
-    print-progress (word "visiting patches (" i ")")
-    set ok? false
-    ask households [
-      if households-daily-routine [
-        set ok? true
+    print-progress "decaying buildings"
+    if (yesterday-temperature < 0 and today-temperature >= 0) or (yesterday-temperature >= 0 and today-temperature < 0) [
+      ask one-of buildings with [building-type = "A-apartment"] [
+        building-energy-efficiency-decay
       ]
     ]
+
+    print-progress "implementing moves"
+    set n-moved 0
+    association-offer-houses
+
+    print-progress "starting daily routine"
     ask households [
-      households-accumulate-encounters
+      households-create-todays-routine
     ]
-    set i i + 1
-  ]
 
-  print-progress "finishing daily routine"
-  ask households [
-    households-go-home
-  ]
-
-  print-progress "checking interventions to start"
-  ask interventions with [ intervention-start = ticks ] [
-    start-intervention
-  ]
-
-  print-progress "stepping interventions"
-  ask interventions with [ intervention-active? ] [
-    step-intervention
-  ]
-
-  print-progress "updating apartments"
-  ask apartments [
-    apartments-update-variables
-  ]
-
-  print-progress "updating buildings"
-  ask buildings [
-    buildings-update-variables
-  ]
-
-  print-progress "updating households"
-  ask households [
-    households-update-crime
-  ]
-
-  ; Manage internal economy at the end of the month
-  if end-of-the-month? [
-    print-progress "end of month updates"
-    ask households [
-      households-receive-wage
-      households-pay-rent-and-bills
-    ]
-  ]
-
-  ; Update unhappinesses
-
-  print-progress "updating happiness"
-  ask households [
-    set household-finance household-finance - household-daily-expenses
-    if household-finance < 0 [
-      set unhappiness-money update-memory unhappiness-money
-      set n-in-debt n-in-debt + 1
-      if networked-unhappiness? [
-        ask social-tie-neighbors with [unhappy-money?] [
-          set unhappiness-money update-memory unhappiness-money
+    let ok? true
+    let i 1
+    while [ok?] [
+      print-progress (word "visiting patches (" i ")")
+      set ok? false
+      ask households [
+        if households-daily-routine [
+          set ok? true
         ]
       ]
-      set household-trust household-trust - (money-d-trust * household-trust)
-    ]
-    if household-n-encounters > 0 and household-n-same-encounters / household-n-encounters < household-homophily [
-      set unhappiness-heterophily update-memory unhappiness-heterophily
-      set n-too-diverse n-too-diverse + 1
-      if networked-unhappiness? [
-        ask social-tie-neighbors with [unhappy-heterophily?] [
-          set unhappiness-heterophily update-memory unhappiness-heterophily
-        ]
+      ask households [
+        households-accumulate-encounters
       ]
-      set household-trust household-trust - (hetero-d-trust * household-trust)
+      set i i + 1
     ]
-    ; Crime and racism handled separately
 
-    ; All unhappiness lists should have old items removed if enough time has elapsed since the most recent one
+    print-progress "finishing daily routine"
+    ask households [
+      households-go-home
+    ]
 
-    if length unhappiness-crime > 0 and ticks - first unhappiness-crime >= household-forgiveness-crime [
-      set unhappiness-crime filter [ t -> ticks - t <= household-forgetting-crime ] unhappiness-crime
+    print-progress "checking interventions to start"
+    ask interventions with [ intervention-start = ticks ] [
+      start-intervention
     ]
-    if length unhappiness-money > 0 and ticks - first unhappiness-money >= household-forgiveness-money [
-      set unhappiness-money filter [ t -> ticks - t <= household-forgetting-money ] unhappiness-money
+
+    print-progress "stepping interventions"
+    ask interventions with [ intervention-active? ] [
+      step-intervention
     ]
-    if length unhappiness-heterophily > 0 and ticks - first unhappiness-heterophily >= household-forgiveness-hetero [
-      set unhappiness-heterophily filter [ t -> ticks - t <= household-forgetting-hetero ] unhappiness-heterophily
+
+    print-progress "updating apartments"
+    ask apartments [
+      apartments-update-variables
     ]
-    if length unhappiness-racism > 0 and ticks - first unhappiness-racism >= household-forgiveness-racism [
-      set unhappiness-racism filter [ t -> ticks - t <= household-forgetting-racism ] unhappiness-racism
+
+    print-progress "updating buildings"
+    ask buildings [
+      buildings-update-variables
     ]
+
+    print-progress "updating households"
+    ask households [
+      households-update-crime
+    ]
+
+    ; Manage internal economy at the end of the month
+    if end-of-the-month? [
+      print-progress "end of month updates"
+      ask households [
+        households-receive-wage
+        households-pay-rent-and-bills
+      ]
+    ]
+
+    ; Update unhappinesses
+
+    print-progress "updating happiness"
+    ask households [
+      set household-finance household-finance - household-daily-expenses
+      if household-finance < 0 [
+        set unhappiness-money update-memory unhappiness-money
+        set n-in-debt n-in-debt + 1
+        if networked-unhappiness? [
+          ask social-tie-neighbors with [unhappy-money?] [
+            set unhappiness-money update-memory unhappiness-money
+          ]
+        ]
+        set household-trust household-trust - (money-d-trust * household-trust)
+      ]
+      if household-n-encounters > 0 and household-n-same-encounters / household-n-encounters < household-homophily [
+        set unhappiness-heterophily update-memory unhappiness-heterophily
+        set n-too-diverse n-too-diverse + 1
+        if networked-unhappiness? [
+          ask social-tie-neighbors with [unhappy-heterophily?] [
+            set unhappiness-heterophily update-memory unhappiness-heterophily
+          ]
+        ]
+        set household-trust household-trust - (hetero-d-trust * household-trust)
+      ]
+      ; Crime and racism handled separately
+
+      ; All unhappiness lists should have old items removed if enough time has elapsed since the most recent one
+
+      if length unhappiness-crime > 0 and ticks - first unhappiness-crime >= household-forgiveness-crime [
+        set unhappiness-crime filter [ t -> ticks - t <= household-forgetting-crime ] unhappiness-crime
+      ]
+      if length unhappiness-money > 0 and ticks - first unhappiness-money >= household-forgiveness-money [
+        set unhappiness-money filter [ t -> ticks - t <= household-forgetting-money ] unhappiness-money
+      ]
+      if length unhappiness-heterophily > 0 and ticks - first unhappiness-heterophily >= household-forgiveness-hetero [
+        set unhappiness-heterophily filter [ t -> ticks - t <= household-forgetting-hetero ] unhappiness-heterophily
+      ]
+      if length unhappiness-racism > 0 and ticks - first unhappiness-racism >= household-forgiveness-racism [
+        set unhappiness-racism filter [ t -> ticks - t <= household-forgetting-racism ] unhappiness-racism
+      ]
+    ]
+
+    ; Apply to move if unhappy for long enough
+
+    print-progress "applications to move"
+
+    ask households [
+      ifelse household-unhappy? [
+        set consecutive-days-unhappy consecutive-days-unhappy + 1
+        set days-unhappy days-unhappy + 1
+      ] [
+        set consecutive-days-unhappy 0
+      ]
+
+      let use-n-unhappy-move min (list n-unhappy-move max (list 10 ((floor (ticks / 2)) + 1)))
+      if consecutive-days-unhappy >= use-n-unhappy-move and not member? self move-waiting-list [
+        households-apply-to-move
+      ]
+
+      ; update observation variables
+
+      if unhappy-crime? [
+        set days-unhappy-crime days-unhappy-crime + 1
+      ]
+      if unhappy-money? [
+        set days-unhappy-money days-unhappy-money + 1
+      ]
+      if unhappy-heterophily? [
+        set days-unhappy-hetero days-unhappy-hetero + 1
+      ]
+      if unhappy-racism? [
+        set days-unhappy-racism days-unhappy-racism + 1
+      ]
+      if household-protesting? [
+        set days-protesting days-protesting + 1
+      ]
+    ]
+
+
+    if hh-file != "NA" and hh-file != "" and hh-file != 0 and hh-file-write-frequency > 0 and ticks mod hh-file-write-frequency = 0 [
+      print-progress (word "saving households to \"" hh-file "\"")
+      save-households hh-file
+    ]
+
+  ] [
+    ; end of carefully block -- we are here if there was an error
+    tick
+    output-error error-message
   ]
-
-  ; Apply to move if unhappy for long enough
-
-  print-progress "applications to move"
-
-  ask households [
-    ifelse household-unhappy? [
-      set consecutive-days-unhappy consecutive-days-unhappy + 1
-      set days-unhappy days-unhappy + 1
-    ] [
-      set consecutive-days-unhappy 0
-    ]
-
-    let use-n-unhappy-move min (list n-unhappy-move max (list 10 ((floor (ticks / 2)) + 1)))
-    if consecutive-days-unhappy >= use-n-unhappy-move and not member? self move-waiting-list [
-      households-apply-to-move
-    ]
-
-    ; update observation variables
-
-    if unhappy-crime? [
-      set days-unhappy-crime days-unhappy-crime + 1
-    ]
-    if unhappy-money? [
-      set days-unhappy-money days-unhappy-money + 1
-    ]
-    if unhappy-heterophily? [
-      set days-unhappy-hetero days-unhappy-hetero + 1
-    ]
-    if unhappy-racism? [
-      set days-unhappy-racism days-unhappy-racism + 1
-    ]
-    if household-protesting? [
-      set days-protesting days-protesting + 1
-    ]
-  ]
-
-
-  if hh-file != "NA" and hh-file != "" and hh-file != 0 and hh-file-write-frequency > 0 and ticks mod hh-file-write-frequency = 0 [
-    print-progress (word "saving households to \"" hh-file "\"")
-    save-households hh-file
-  ]
-
 
   tick
 
@@ -2207,10 +2218,10 @@ to intervention-notify-households
 end
 
 to intervention-negotiate-upgrade
-  let upgrade-choices []
-  let rent intervention-rent-change-options
+  set upgrade-choices []
+  let rent-options intervention-rent-change-options
   ask intervention-buildings [
-    let upgrade-choice building-upgrade-choice rent
+    let upgrade-choice building-upgrade-choice rent-options
     set upgrade-choices lput (list self upgrade-choice) upgrade-choices
   ]
   set intervention-upgrade-choices upgrade-choices
@@ -2254,9 +2265,12 @@ end
 
 to intervention-move-households-in
   foreach intervention-upgrade-choices [ upgrade-choice ->
+    if not is-list? upgrade-choice or length upgrade-choice != 2 [
+      output-error (word "upgrade-choice list has an unexpected number of elements ("
+        (length upgrade-choice) ") in intervention-upgrade-choices " intervention-upgrade-choices)
+    ]
     let the-building item 0 upgrade-choice
-    let the-upgrade item 1 upgrade-choice
-    let rent-factor item the-upgrade intervention-rent-change-options
+    let rent-factor item 1 upgrade-choice
 
     ask the-building [
       ask building-apartments [
@@ -2411,11 +2425,12 @@ end
 
 to-report building-upgrade-choice [ option-list ]
   let people building-residents
-  if any? people [ ; it is possible that buildings will be upgraded when they don't have any residents
+  ifelse any? people [ ; it is possible that buildings will be upgraded when they don't have any residents
     let votes [ household-choose-upgrade-option option-list ] of building-residents
-    report one-of modes votes
+    report item (one-of modes votes) option-list
+  ] [
+    report one-of option-list
   ]
-  report one-of option-list
 end
 
 ;{activities}
@@ -3220,8 +3235,8 @@ end
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 
 to output-error [string]
-  error string
   set error? true
+  error string
 end
 
 to output-warning [string]
@@ -6157,7 +6172,7 @@ false
 Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
 @#$#@#$#@
-NetLogo 6.3.0
+NetLogo 6.4.0
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
